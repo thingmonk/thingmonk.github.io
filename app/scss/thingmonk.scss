@@ -1,0 +1,44 @@
+//////////////////////////////
+// DEFAULT
+//////////////////////////////
+
+//////////////////////////////
+// IMPORTING PARTIALS
+
+// These files are needed at the beginning so that we establish all
+// our mixins, functions, and variables that we'll be using across
+// the whole project.
+//////////////////////////////
+
+// Sass variables
+@import "thingmonk/partials/vars_funcs_mixins";
+
+// typography
+@import "thingmonk/partials/typography";
+
+//////////////////////////////
+// IMPORTING MODULES
+
+// Modules are reusable blocks or elements we use throughout the project.
+// We can break them up as much as we want or just keep them all in one.
+// I mean, you can do whatever you want. The world is your oyster. Unless
+// you hate oysters, then the world is your peanut butter & jelly sandwich.
+//////////////////////////////
+
+// buttons
+@import "thingmonk/modules/buttons";
+
+// forms (inputs & labels)
+@import "thingmonk/modules/forms";
+
+
+//////////////////////////////
+// THEME
+//////////////////////////////
+@import "thingmonk/theme/base";
+
+//////////////////////////////
+// CUSTOM
+//////////////////////////////
+
+@import "thingmonk/colors/color";
