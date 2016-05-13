@@ -1,0 +1,49 @@
+//////////////////////////////
+// COLORS
+//////////////////////////////
+$themes: (
+    "white": $white,
+    "black": $black,
+    "dark-grey": $rm-dark-grey,
+    "grey": $rm-mid-grey,
+    "red": $rm-red,
+);
+
+
+//Color contrast
+@mixin text-contrast($n) {
+  $color-brightness: round((red($n) * 299) + (green($n) * 587) + (blue($n) * 114) / 1000);
+  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + (blue(#ffffff) * 114) / 1000);
+
+  @if abs($color-brightness) < ($light-color/2){
+    color: $white;
+    border-color: $white;
+  }
+
+  @else {
+    color: $text-color;
+    border-color: $text-color;
+  }
+}
+//////////////////////////////
+// THEMES
+//////////////////////////////
+
+// Generate a class for each color of each color palette
+@each $theme, $color in $themes {
+      .theme--#{$theme}  {
+          .rm-masthead {
+            // border-top: $border-height solid $color;
+          }
+          .btn-solid {
+            background-color: $color;
+            @include text-contrast($color);
+          }
+      }
+      .bg-#{$theme} {
+        background-color: $color;
+        h2, p, p>a {
+          @include text-contrast($color);
+        }
+      }
+}

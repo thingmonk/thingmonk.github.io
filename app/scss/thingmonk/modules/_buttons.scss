@@ -1,0 +1,78 @@
+//////////////////////////////
+// BUTTONS
+//////////////////////////////
+
+%button-style {
+  display:inline-block;
+  border:0;
+  color:$rm-grey;
+  // background-color:$rm-red;
+  font-family: $allumi;
+  font-style: normal;
+  font-weight: 600;
+  font-size: rem-calc(15);
+  line-height: 1em;
+  text-decoration: none;
+  padding:10px 20px;
+  margin:0;
+  text-align: left;
+  border-radius:4px;
+  border:1px solid $rm-grey;
+  @include transition(none);
+  &:hover, &:focus, &:active {
+    text-decoration: none;
+    border-color:$rm-red;
+     background-color:$rm-red;
+     color:$white;
+  }
+  position: relative;
+}
+
+%button-small {
+  font-size: rem-calc(13);
+  padding:4px 6px;
+}
+
+.btn {
+  @extend %button-style;
+}
+
+.btn-small {
+  @extend %button-style;
+  @extend %button-small;
+}
+
+.btn-block {
+  display: block;
+  width:100%;
+}
+
+.btn-solid {
+  background-color:$rm-red;
+  border-color:$rm-red;
+  color:$white;
+  &:hover, &:focus {
+     background-color:transparent;
+     color:$rm-red;
+  }
+}
+
+.btn-ghost {
+   background-color:transparent;
+   border-color:$white;
+   color:$white;
+   &:hover, &:focus, &:active {
+      background-color:rgba($white, 0.4);
+      color:$white;
+   }
+}
+
+.btn-translucent {
+   background-color:rgba($white, 0.4);
+   border-color:$white;
+   color:$white;
+   &:hover, &:focus, &:active {
+      background-color:$white;
+      color:$rm-red;
+   }
+}
