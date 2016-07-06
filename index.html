@@ -7,7 +7,47 @@ layout: thingmonk
     <p>We're about the makers, people turning ideas and concepts into systems, platforms and communities.</p>
     <p>This year we're also featuring an extra "Day 0" event, including a half day conference within a conference dedicated to the Eclipse Foundation's IoT ecosystem, and back by popular demand, a half day into evening hackday with Coding by Candlelight.</p>
     <p>ThingMonk 2016 will be held in the heart of Shoreditch at Shoreditch Studios, 37 Batemans Row, EC2A 3HH</p>
-<div class="row -cta">
+    <!-- test -->
+    <div class="row -cta">
+        <div class="small-12 medium-12 columns text-center">
+        <div class="item">
+            <h3>ThingMonk Speakers</h3>
+        </div>
+        <table width="90%">
+        {% for speaker in site.data.speakers %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 1 %}
+        <tr><td> <a href="http://twitter.com/{{ speaker.twitter }}">
+                    <img src="/imgs/{{speaker.photo}}" class="img-rounded" width="150" height="150" alt="{{ speaker.name }}"> {{ speaker.name }}</a> </td>
+            {% else %}
+            <td><a href="http://twitter.com/{{ speaker.twitter }}"><img src="/imgs/{{speaker.photo}}" class="img-rounded" width="150" height="150" alt="{{ speaker.name }}" > {{speaker.name}}</a></td></tr>
+        {% endif %}
+        {% endfor %}
+        </table>
+    </div>
+    </div>
+
+    <div class="row -cta">
+        <div class="small-12 medium-6 columns text-center">
+            <div class="item"><h3>Eclipse Day Speakers</h3></div>
+        <table width="90%">
+        {% for speaker in site.data.eclipse_speakers %}
+<tr> <td><a href="http://twitter.com/{{ speaker.twitter }}"><img src="/imgs/{{speaker.photo}}" class="img-rounded" width="150" height="150" alt="{{ speaker.name }}" > {{speaker.name}}</a></td></tr>
+        {% endfor %}
+    </table>
+</div>
+        <div class="small-12 medium-6 columns text-center">
+            <div class="item"><h3>News</h3></div>
+            <table width="90%">
+                {% for post in site.posts %}
+                <tr><td><a href="{{ post.url }}">{{post.title}}</a></td></tr>
+        {% endfor %}
+    </table>
+    </div>
+    </div>
+
+    <!-- end test -->
+    <div class="row -cta">
 <div class="small-12 medium-4 columns text-center">
   <div class="item">
   <h3>Call For Papers</h3>

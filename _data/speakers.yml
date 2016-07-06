@@ -1,0 +1,30 @@
+- name: Sam Phippen
+  photo: samp.jpg
+  bio:
+  talktitle:
+  twitter: samphippen
+
+- name: Alasdair Allan
+  photo: aallan.jpg
+  bio:
+  talktitle:
+  twitter: aallan
+
+- name: Yodit Stanton
+  photo: yodit.jpg 
+  bio: 
+  talktitle:
+  twitter: yoditstanton
+
+- name: Dave McCrory
+  photo: davem.jpg
+  bio:
+  talktitle:
+  twitter: mccrory
+
+- name: Johan Stokking
+  photo: johans.jpg
+  bio:
+  talktitle:
+  bio: johanstokking
+
