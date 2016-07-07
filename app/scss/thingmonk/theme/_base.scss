@@ -7,8 +7,13 @@
 	max-width:$global-width;
 }
 
+.row-wide {
+	max-width:100%;
+}
+
+
 .rm-container {
-		margin:$margin;
+		margin:$margin 0;
 		@media #{$medium-up} {
 			max-width:100%;
 			margin:-40px 0 0;
@@ -16,6 +21,24 @@
 		@media #{$large-up} {
 			margin:-80px 0 0;
 		}
+}
+
+.l-about {
+	background-color: $white;
+	padding:$margin;
+	@media #{$large-up} {
+		padding:($margin * 2) 0 $margin;
+	}
+}
+
+.l-speakers {
+	background-color:#cccccc;
+}
+.l-news {
+	background-color:lighten(#cccccc, 10%);
+}
+.l-papers {
+	background-color:lighten(#cccccc, 20%);
 }
 
 .rm-masthead {
@@ -36,10 +59,9 @@
 
 
 .primary {
-	background-color:white;
-	padding:$margin;
+	// padding:$margin 0;
 	@media #{$large-up} {
-		padding:($margin * 2) $margin;
+		padding:($margin * 2) 0;
 	}
 	z-index: 2;
 	position: relative;
@@ -47,36 +69,67 @@
 }
 
 .-cta {
-	@media #{$medium-up} {
-		margin:($margin * 2) 0;
-	}
+	padding:0 0 ($margin * 2);
+	// @media #{$medium-up} {
+	// 	margin:($margin * 2) 0;
+	// }
 	.item {
-		background-color: $rm-light-grey;
+		// background-color: $rm-light-grey;
 		padding-bottom:10px;
+		overflow: hidden;
+		text-align: left;
 		h3 {
-
 			// background-color:lighten($rm-red, 30%);
-			background-color: #E08E73;
+			background-color: $rm-red;
 			padding:10px;
 			color:$white;
-			text-transform: uppercase;
+			// text-transform: uppercase;
 			font-size: rem-calc(20);
-		}
-		.desc {
 			@media #{$large-up} {
-				max-width:70%;
-				margin:0 15% $margin;
-				min-height:60px;
+				display: inline-block;
+				padding:15px 35px;
+				// float:left;
 			}
 		}
+		.desc {
+			clear:both;
+			// text-align: left;
+		}
 		.btn {
-			// display: block;
-			// width:100%;
-			// text-align: center;
-			// padding: 10px;
+			border-width:2px;
 		}
 	}
 }
+
+.c-speakers {
+	overflow: hidden;
+	clear: both;
+	text-align: center;
+	.c-speaker__item {
+		width:30%;
+		display:inline-block;
+	}
+	.c-speaker__avatar {
+		display: block;
+		width: 120px;
+		border-radius: 50%;
+		margin: 0 auto 0.5em;
+		border: 6px solid #f7f6f1;
+		box-sizing: content-box;
+		&:hover {
+			border: 6px solid $rm-red;
+		}
+	}
+	.c-speaker__name {
+		color:$rm-dark-grey;
+		font-weight: bold;
+		font-size: 14px;
+		a {
+			color:$rm-dark-grey;
+		}
+	}
+}
+
 
 /**
 * 7.0 - Accessibility

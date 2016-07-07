@@ -3476,8 +3476,11 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
 .row {
   max-width: 978px; }
 
+.row-wide {
+  max-width: 100%; }
+
 .rm-container {
-  margin: 20px; }
+  margin: 20px 0; }
   @media screen and (min-width: 40em) {
     .rm-container {
       max-width: 100%;
@@ -3485,6 +3488,22 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
   @media screen and (min-width: 64em) {
     .rm-container {
       margin: -80px 0 0; } }
+
+.l-about {
+  background-color: #fff;
+  padding: 20px; }
+  @media screen and (min-width: 64em) {
+    .l-about {
+      padding: 40px 0 20px; } }
+
+.l-speakers {
+  background-color: #cccccc; }
+
+.l-news {
+  background-color: #e6e6e6; }
+
+.l-papers {
+  background-color: white; }
 
 .rm-masthead {
   max-width: 100%;
@@ -3498,33 +3517,55 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     color: #777777; }
 
 .primary {
-  background-color: white;
-  padding: 20px;
   z-index: 2;
   position: relative;
   overflow: hidden; }
   @media screen and (min-width: 64em) {
     .primary {
-      padding: 40px 20px; } }
+      padding: 40px 0; } }
 
-@media screen and (min-width: 40em) {
-  .-cta {
-    margin: 40px 0; } }
-
-.-cta .item {
-  background-color: #efefef;
-  padding-bottom: 10px; }
-  .-cta .item h3 {
-    background-color: #c3161c;
-    padding: 10px;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.25rem; }
-  @media screen and (min-width: 64em) {
+.-cta {
+  padding: 0 0 40px; }
+  .-cta .item {
+    padding-bottom: 10px;
+    overflow: hidden;
+    text-align: left; }
+    .-cta .item h3 {
+      background-color: #EC4C4C;
+      padding: 10px;
+      color: #fff;
+      font-size: 1.25rem; }
+      @media screen and (min-width: 64em) {
+        .-cta .item h3 {
+          display: inline-block;
+          padding: 15px 35px; } }
     .-cta .item .desc {
-      max-width: 70%;
-      margin: 0 15% 20px;
-      min-height: 60px; } }
+      clear: both; }
+    .-cta .item .btn {
+      border-width: 2px; }
+
+.c-speakers {
+  overflow: hidden;
+  clear: both;
+  text-align: center; }
+  .c-speakers .c-speaker__item {
+    width: 30%;
+    display: inline-block; }
+  .c-speakers .c-speaker__avatar {
+    display: block;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0 auto 0.5em;
+    border: 6px solid #f7f6f1;
+    box-sizing: content-box; }
+    .c-speakers .c-speaker__avatar:hover {
+      border: 6px solid #EC4C4C; }
+  .c-speakers .c-speaker__name {
+    color: #444444;
+    font-weight: bold;
+    font-size: 14px; }
+    .c-speakers .c-speaker__name a {
+      color: #444444; }
 
 /**
 * 7.0 - Accessibility
