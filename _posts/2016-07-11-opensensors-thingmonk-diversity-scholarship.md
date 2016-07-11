@@ -7,12 +7,12 @@ categories: thingmonk cfp
 
 <h1 class="text-center">ThingMonk 2016 Diversity Scholarship, sponsored by OpenSensors.io</h1>
 <p />
-We have been priviled to work with a wonderfully diverse group of people since starting ThingMonk, and
+We have been privileged to work with a wonderfully diverse group of people since starting ThingMonk, and
 make a point of creating a conference where everyone is welcome. Sadly there is always far more work to
 be done to help with diversity in tech. 
 <p />
 This year the team at <a href="http://opensensors.io">OpenSensors.io</a> are sponsoring a diversity 
-scholarship at ThingMonk, which allows us to extend further a program that has been quitely running since
+scholarship at ThingMonk, which allows us to further extend a program that has been quitely running since
 the conference began. You can apply for this scholarship by filling in <a href="http://goo.gl/forms/vvp8OY8ktCDVsXPu1">this form</a>, we will get back to 
 everyone that has applied later this month. 
 <p />
