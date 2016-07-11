@@ -4,8 +4,9 @@ title: "ThingMonk 2016 Speakers - The First Batch"
 categories: thingmonk cfp
 ---
 <div class="l-about row">
+
 <h1 class="text-center">ThingMonk 2016 Speakers - The First Batch</h1>
-<p>
+<p />
 We are delighted to announce the first group of speakers for ThingMonk 2016. 
 <p >
 This year sees us diving further into the The Things Network, one of the most important grass 
@@ -19,4 +20,5 @@ be talking and demoing her opensource project around quantified fitness, which p
 to hack around with on Day zero.
 <p />
 Tickets for ThingMonk are <a href="https://www.eventbrite.co.uk/e/thingmonk-2016-tickets-24733051222">on sale now</a>.
+
 </div> 
