@@ -3,10 +3,11 @@ layout: thingmonk
 title: "ThingMonk 2016 Speakers - The First Batch"
 categories: thingmonk cfp
 ---
-
+<div class="l-about row">
 <h1 class="text-center">ThingMonk 2016 Speakers - The First Batch</h1>
 <p>
-We are delighted to announce the first group of speakers for ThingMonk 2016. <br />
+We are delighted to announce the first group of speakers for ThingMonk 2016. 
+<p >
 This year sees us diving further into the The Things Network, one of the most important grass 
 roots projects in IoT, with <a href="http://twitter.com/johanstokking">Johann Stokking</a> joining us.
 <p />  
@@ -17,4 +18,5 @@ We are also delighted to be joined by <a href="http://twitter.com/synedra">Kirst
 be talking and demoing her opensource project around quantified fitness, which people will also be able 
 to hack around with on Day zero.
 <p />
-Tickets for ThingMonk are still on sale. 
+Tickets for ThingMonk are <a href="https://www.eventbrite.co.uk/e/thingmonk-2016-tickets-24733051222">on sale now</a>.
+</div> 

@@ -3,6 +3,7 @@ layout: thingmonk
 title: "ThingMonk 2016 Call for Papers"
 categories: thingmonk cfp
 ---
+<div class="l-about row">
 
 <h1 class="text-center">ThingMonk Call For Papers Now Open</h1>
 <p>
@@ -25,4 +26,4 @@ IOT is evolving at an incredible pace, and this years conference themes are
 Talks are twenty minutes long, and should tell a story. No one is going to learn your API in twenty minutes at a conference, but the attendees at ThingMonk will see new and novel ways to use the technology that you are talking about that you have not even considered yet.
 <p />
 We would love to hear from you - submit your talk <a href="https://docs.google.com/forms/d/1IBJ53QbMI6165THIH2OuUq4I9H0V_yMc56rfMwHBqKU/viewform?c=0&w=1">here</a>.
-
+</div>
