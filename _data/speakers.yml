@@ -11,8 +11,8 @@
   twitter: aallan
 
 - name: Yodit Stanton
-  photo: yodit.jpg 
-  bio: 
+  photo: yodit.jpg
+  bio:
   talktitle:
   twitter: yoditstanton
 
@@ -37,11 +37,17 @@
 - name: Tracy Miranda
   photo: tracym.jpg
   bio:
-  talktitle: 
-  twitter: tracymiranda 
+  talktitle:
+  twitter: tracymiranda
 
 - name: Terence Eden
   photo: edent.png
   bio:
   talktitle:
-  twitter: edent 
+  twitter: edent
+
+- name: Rachel Stephens
+  photo: rachel.jpg
+  bio:
+  talktitle:
+  twitter: rstephensme
