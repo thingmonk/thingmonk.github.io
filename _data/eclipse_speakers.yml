@@ -4,3 +4,24 @@
   talktitle:
   talkabstract:
   twitter: IanSkerrett
+
+- name: Kamil Baczkowicz
+  photo: kamilb.jpg
+  bio: Kamil is a Technical Architect at DeltaRail. He’s been working with MQTT and other messaging technologies since 2009 as part of the IECC Scalable development programme – the leading railway signalling control system in the UK. Author of @mqtt_spy.
+  talktitle: Running UK railway with Eclipse Paho & Mosquitto
+  talkabstract: A success story of using MQTT and Eclipse IoT components in DeltaRail's state-of-the-art signalling control system. Overview of the architecture, lessons learnt and best practises in using MQTT for highly reliable, high-throughput, low-latency messaging in a safety-related environment.
+  twitter: kamilfb84
+
+- name: Kai Hudalla
+  photo: kaih.jpg
+  bio: 
+  talktitle: 
+  talkabstract: 
+  twitter: 
+
+- name: Benjamin Cabé
+  photo: benjaminc.jpg
+  bio: 
+  talktitle: 
+  talkabstract: 
+  twitter: kartben
