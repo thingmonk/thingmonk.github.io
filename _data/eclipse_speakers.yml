@@ -1,10 +1,3 @@
-- name: Ian Skerrett
-  photo: ians.jpg
-  bio: VP Marketing &amp; Ecosystem, Eclipse Foundation
-  talktitle:
-  talkabstract:
-  twitter: IanSkerrett
-
 - name: Kamil Baczkowicz
   photo: kamilb.jpg
   bio: Kamil is a Technical Architect at DeltaRail. He’s been working with MQTT and other messaging technologies since 2009 as part of the IECC Scalable development programme – the leading railway signalling control system in the UK. Author of @mqtt_spy.
@@ -14,14 +7,21 @@
 
 - name: Kai Hudalla
   photo: kaih.jpg
-  bio: 
-  talktitle: 
-  talkabstract: 
+  bio: Chief Software Architect, Bosch Software Innovations
+  talktitle: TBC
+  talkabstract: TBC
   twitter: 
 
 - name: Benjamin Cabé
   photo: benjaminc.jpg
-  bio: 
-  talktitle: 
-  talkabstract: 
+  bio: Benjamin Cabé, Internet of Things enthusiast and evangelist at the Eclipse Foundation, has years of experience in connecting things, big and small, together. <p>He is advocating the use of open source technologies to build Internet of Things solutions, which led him to cofound the Eclipse IoT Working Group in 2011. This working group has become a thriving community of 25+ open source projects, hundreds of developers, and thousands of users.
+  talktitle: TBC
+  talkabstract: TBC
   twitter: kartben
+
+- name: Patrizia Gufler
+  photo: patriziag.jpg
+  bio: IoT Architect, IBM Watson IoT
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: pattygufler

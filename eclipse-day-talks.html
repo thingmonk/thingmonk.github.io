@@ -10,7 +10,7 @@ layout: thingmonk
     <div class="row">
       <div class="small-12 medium-12 columns text-center">
         <div class="item">
-            <h3>ThingMonk Talks</h3>
+            <h3>Eclipse Day Talks</h3>
         </div>
       </div>
     </div>
@@ -35,7 +35,9 @@ layout: thingmonk
             <h3 class="c-talk-speaker__name">{{ speaker.name }} Bio</h3>
             <div class="c-talk-speaker__bio">
               <p>{{ speaker.bio }}</p>
+              {% if speaker.twitter %}
               <p class="c-talk-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></p>
+              {% endif %}
             </div>
           </div>
     </div>
