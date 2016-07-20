@@ -60,3 +60,52 @@
   talktitle: TBC
   talkabstract: TBC
   twitter: rstephensme
+
+- name: Dominique Guinard
+  photo: domg.jpg
+  bio: CTO, Evrythng.com
+  talktitle: Building the Web of Things - Node.js, the Web and the IoT
+  talkabstract: Because the Internet of Things is still new, there is no universal application protocol. Fortunately, the IoT can take advantage of the web, where IoT protocols connect applications thanks to universal and open APIs.  <p> In this talk we'll look at "Building the Web of Things", a book introducing developers, tinkerers, makers and product developers to using cutting-edge and open web technologies to build the IoT. This step-by-step book teaches you how to use web protocols to connect real-world devices to the web, including the Semantic and Social Webs.  <p />In particular, we will cover:<p /><ul><li>Introduction to IoT protocols and devices<li>Connect electronic actuators and sensors (GPIO) to a Raspberry Pi<li>Implement standard REST and Pub/Sub APIs with Node.js on embedded systems<li>Learn about IoT protocols like MQTT and CoAP and integrate them to the Web of Things<li>Use the Semantic Web (JSON-LD, RDFa, etc.) to discover and find Web Things<li>Share Things via Social Networks to create the Social Web of Things<li>Compose physical mashups with EVRYTHNG, Node-RED, and IFTTT
+  twitter: domguinard
+
+- name: Alexandra Deschamps-Sonsino
+  photo: alexds.png
+  bio: Alexandra is an interaction designer, product designer, entrepreneur based in London.<p > She was named 2nd in Top 100 Internet of Things Thought Leaders (Onalytica, 2014) and in the Top 100 Influencial Tech Women on Twitter (Business Insider, 2014).<p > She is the founder of the Good Night Lamp, connected lamps for your global friends and family.<p > She is also the Director of designswarm a strategic consultancy focusing on the internet of things. Some of her clients include BBC R&amp;D, Nokia, British Gas, EDF R&D and British Telecom. <p > She was co-founder and CEO of Tinker London, a smart product design studio. Tinker was the first distributor of the Arduino platform in the UK.<p /> She has been running the London Internet of Things meetup since 2011, one of the largest meetups on that topic in the world.  <p />Her work has been exhibited at the Museum of Modern Art in New York, the Victoria & Albert Museum and galleries around the world. 
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: iotwatch
+
+- name: Boris Adryan
+  photo: borisa.jpg 
+  bio: Boris Adryan ("Boris", or "Dr. Adryan") has a long-standing interest in big data analytics and machine learning. From 2008 to 2015 he lead a method development group at the University of Cambridge. Since 2013 he has been a consultant and hired hand for mostly London based IoT companies. As regular conference presenter, he is talking about the opportunities and challenges of data analytics for the Internet of Things. In 2016 Boris did his personal Brexit and joined Zühlke Engineering in Frankfurt to support their IoT and data analytics activities.
+  talktitle: Just because you can doesn't mean that you should
+  talkabstract: Big data! Fast data! Real-time analytics! These are buzzwords commonly associated with platform offerings around IoT.  <p />Although the Law of large numbers always applies, just because you can deploy more sensors doesn't automatically mean that you should. After all, they cost money, bandwidth, and can be a pain to maintain. On the example of the Westminster Parking Trial, I'd like to show how analytics on preliminary survey data could have reduced the number of deployed sensors significantly.<p />  A similar logic goes for fast and real-time analytics. While being advertised as killer features, many people new to IoT and analytics are not even aware that they might get away with batch processing. On the example of flying a drone (don't worry, theoretically, unless you can give me one), I'd like to discuss for which use cases I'd apply edge processing (on the drone), stream or micro-batch analytics (when data arrives at the platform) or work on batched data (stored in a database).
+  twitter: BorisAdryan
+
+- name: Kyle Roche
+  photo: kylem.jpg
+  bio: GM, IOT, Amazon Web Services
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: kylemroche
+
+- name: Matt Bidulph
+  photo: mattb.jpg
+  bio: Matt Biddulph is co-founder of Thington Inc, who are building a new way to interact with a world of connected things. He was co-founder of Dopplr, the social network for smarter travel acquired by Nokia in 2009. He started out in 1994 building search engines on CD-ROM, and now specialises in real-time data, social software, and connecting the real world to the web
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: mattb
+
+- name: Thomas Grassl
+  photo: thomasg.jpg
+  bio: Head of Developer Relations, SAP
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: grassl 
+
+- name: Haiyan Zhang
+  photo: haiyanz.jpg
+  bio: Innovation Director, Microsoft Research
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: haiyan 
