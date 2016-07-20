@@ -22,11 +22,15 @@ layout: thingmonk
             <div class="c-speaker__item">
               <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
               <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a></h4>
+              <a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a>
+              <br />
             </div>
             {% else %}
             <div class="c-speaker__item">
               <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" ></a>
               <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a></h4>
+              <a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a>
+              <br / >
             </div>
             {% endif %}
             {% endfor %}

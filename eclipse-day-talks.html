@@ -1,0 +1,46 @@
+---
+layout: thingmonk
+---
+<div class="l-about row">
+<a name="about"></a>
+<h1 class="text-center">ThingMonk 2016<span>Developers, Data, Design: The New Industrial</span></h1>
+</div>
+
+<div class="l-speakers -cta">
+    <div class="row">
+      <div class="small-12 medium-12 columns text-center">
+        <div class="item">
+            <h3>ThingMonk Talks</h3>
+        </div>
+    </div>
+</div>
+            {% for speaker in site.data.eclipse_speakers %}
+<div class="row">
+    <div class="small-12 medium-12">
+        <table border="0" width="90%">
+            <tr><td wdith="30%">
+            <div class="c-speakers">
+            <div class="c-speaker__item">
+              <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
+              <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a></h4>
+          </div>
+      </div>
+  </td>
+  <td width="70%">
+      <div class="c-speaker__item">
+          <a name="{{ speaker.twitter }}" />
+          <h2>{{ speaker.talktitle }}</h2>
+          <p />
+          {{ speaker.talkabstract }}
+          <p />
+          <b>{{ speaker.name }} Bio</b>
+          <p />
+          {{ speaker.bio }}
+            </div>
+        </td>
+    </tr>
+</table>
+        </div><!--columns-->
+    </div><!--row-->
+            {% endfor %}
+
