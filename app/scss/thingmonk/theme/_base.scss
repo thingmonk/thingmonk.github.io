@@ -47,8 +47,6 @@
 	position: relative;
 }
 
-
-
 .rm-footer {
 	text-align: center;
 	p {
@@ -57,6 +55,15 @@
 	}
 }
 
+
+.c-news {
+	// margin-left:2rem;
+	li {
+		list-style-type: none;
+		border-bottom:1px solid lighten(#cccccc, 5%);
+		padding:0.5rem 0;
+	}
+}
 
 .primary {
 	// padding:$margin 0;
@@ -106,12 +113,13 @@
 	clear: both;
 	text-align: center;
 	.c-speaker__item {
-		width:30%;
+		// width:40%;
 		display:inline-block;
 	}
 	.c-speaker__avatar {
 		display: block;
 		width: 120px;
+		height: 120px;
 		border-radius: 50%;
 		margin: 0 auto 0.5em;
 		border: 6px solid #f7f6f1;
@@ -126,6 +134,66 @@
 		font-size: 14px;
 		a {
 			color:$rm-dark-grey;
+		}
+	}
+	.c-speaker__talk {
+		font-size: 12px;
+	}
+}
+
+.c-speakers__grid {
+	.c-speaker__item {
+		width:40%;
+		margin-bottom:2rem;
+		@media #{$medium-up} {
+			width:30%;
+		}
+		@media #{$large-up} {
+			width:20%;
+		}
+	}
+}
+
+.c-speakers__grid--small {
+	.c-speaker__item {
+		width:20%;
+		margin-bottom:2rem;
+		@media #{$large-up} {
+			width:40%;
+		}
+	}
+}
+
+
+//Talks
+.l-talk {
+	padding:2rem;
+	background-color: $white;
+	margin-bottom:.1rem;
+}
+
+.c-talk {
+
+	.c-talk__title {
+		color:$rm-red;
+	}
+	.c-talk__abstract {
+
+	}
+	.c-talk-speaker__name {
+		border-top:1px solid #cccccc;
+		color:$rm-grey;
+		font-size: 16px;
+		padding-top:1rem;
+		margin-top:2rem;
+		margin-bottom:0.5rem;
+	}
+	.c-talk-speaker__bio {
+		font-style: italic;
+		font-size: 14px;
+		p {
+			font-style: italic;
+			font-size: 14px;
 		}
 	}
 }

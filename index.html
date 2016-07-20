@@ -15,22 +15,24 @@ layout: thingmonk
       <div class="small-12 medium-12 columns text-center">
         <div class="item">
             <h3>ThingMonk Speakers</h3>
-            <div class="c-speakers">
+            <div class="c-speakers c-speakers__grid">
             {% for speaker in site.data.speakers %}
             {% assign mod = forloop.index | modulo: 2 %}
             {% if mod == 1 %}
             <div class="c-speaker__item">
-              <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
-              <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a></h4>
-              <a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a>
-              <br />
+              <a href="thingmonk-talks.html#{{ speaker.twitter }}">
+                <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
+                <h4 class="c-speaker__name">{{ speaker.name }}</h4>
+             </a>
+             <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
             </div>
             {% else %}
             <div class="c-speaker__item">
-              <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" ></a>
-              <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a></h4>
-              <a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a>
-              <br / >
+              <a href="thingmonk-talks.html#{{ speaker.twitter }}">
+                <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
+                <h4 class="c-speaker__name">{{ speaker.name }}</a></h4>
+              </a>
+              <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
             </div>
             {% endif %}
             {% endfor %}
@@ -45,11 +47,13 @@ layout: thingmonk
       <div class="small-12 medium-6 columns text-center">
           <div class="item">
             <h3>Eclipse Day Speakers</h3>
-            <div class="c-speakers">
+            <div class="c-speakers c-speakers__grid--small">
             {% for speaker in site.data.eclipse_speakers %}
               <div class="c-speaker__item">
-                <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" ></a>
-                <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{speaker.name}}</a></h4>
+                <a href="eclipse-day-talks.html#{{ speaker.twitter }}">
+                  <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
+                  <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{speaker.name}}</h4>
+                </a>
               </div>
             {% endfor %}
             </div><!--speakers-->

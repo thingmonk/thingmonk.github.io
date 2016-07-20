@@ -3516,6 +3516,11 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     font-size: 0.75rem;
     color: #777777; }
 
+.c-news li {
+  list-style-type: none;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0.5rem 0; }
+
 .primary {
   z-index: 2;
   position: relative;
@@ -3549,11 +3554,11 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
   clear: both;
   text-align: center; }
   .c-speakers .c-speaker__item {
-    width: 30%;
     display: inline-block; }
   .c-speakers .c-speaker__avatar {
     display: block;
     width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin: 0 auto 0.5em;
     border: 6px solid #f7f6f1;
@@ -3566,6 +3571,48 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     font-size: 14px; }
     .c-speakers .c-speaker__name a {
       color: #444444; }
+  .c-speakers .c-speaker__talk {
+    font-size: 12px; }
+
+.c-speakers__grid .c-speaker__item {
+  width: 40%;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 40em) {
+    .c-speakers__grid .c-speaker__item {
+      width: 30%; } }
+  @media screen and (min-width: 64em) {
+    .c-speakers__grid .c-speaker__item {
+      width: 20%; } }
+
+.c-speakers__grid--small .c-speaker__item {
+  width: 20%;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 64em) {
+    .c-speakers__grid--small .c-speaker__item {
+      width: 40%; } }
+
+.l-talk {
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: .1rem; }
+
+.c-talk .c-talk__title {
+  color: #EC4C4C; }
+
+.c-talk .c-talk-speaker__name {
+  border-top: 1px solid #cccccc;
+  color: #777777;
+  font-size: 16px;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem; }
+
+.c-talk .c-talk-speaker__bio {
+  font-style: italic;
+  font-size: 14px; }
+  .c-talk .c-talk-speaker__bio p {
+    font-style: italic;
+    font-size: 14px; }
 
 /**
 * 7.0 - Accessibility

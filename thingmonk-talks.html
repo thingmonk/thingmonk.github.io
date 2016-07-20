@@ -15,32 +15,31 @@ layout: thingmonk
     </div>
 </div>
             {% for speaker in site.data.speakers %}
-<div class="row">
-    <div class="small-12 medium-12">
-        <table border="0" width="90%">
-            <tr><td wdith="30%">
-            <div class="c-speakers">
-            <div class="c-speaker__item">
-              <a href="http://twitter.com/{{ speaker.twitter }}"><img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
-              <h4 class="c-speaker__name"><a href="http://twitter.com/{{ speaker.twitter }}">{{ speaker.name }}</a></h4>
+<div class="row l-talk">
+    <div class="small-12 medium-4  columns">
+        <div class="c-speakers">
+          <div class="c-speaker__item">
+            <a href="http://twitter.com/{{ speaker.twitter }}">
+              <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}">
+              <h4 class="c-speaker__name">{{ speaker.name }}</h4>
+          </a>
           </div>
+        </div>
+  </div>
+  <div class="small-12 medium-8  columns">
+      <a name="{{ speaker.twitter }}" /></a>
+      <div class="c-talk">
+        <a name="{{ speaker.twitter }}" /></a>
+        <h2 class="c-talk__title">{{ speaker.talktitle }}</h2>
+        <div class="c-talk__abstract">
+          <p>{{ speaker.talkabstract }}</p>
+        </div>
+        <h3 class="c-talk-speaker__name">{{ speaker.name }} Bio</h3>
+        <div class="c-talk-speaker__bio">
+          <p>{{ speaker.bio }}</p>
+          <p class="c-talk-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a></hp>
+        </div>
       </div>
-  </td>
-  <td width="70%">
-      <div class="c-speaker__item">
-          <a name="{{ speaker.twitter }}" />
-          <h2>{{ speaker.talktitle }}</h2>
-          <p />
-          {{ speaker.talkabstract }}
-          <p />
-          <b>{{ speaker.name }} Bio</b>
-          <p />
-          {{ speaker.bio }}
-            </div>
-        </td>
-    </tr>
-</table>
-        </div><!--columns-->
-    </div><!--row-->
-            {% endfor %}
-
+  </div><!--columns-->
+</div><!--row-->
+{% endfor %}
