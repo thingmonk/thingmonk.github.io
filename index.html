@@ -1,100 +1,138 @@
 ---
 layout: thingmonk
 ---
-<div class="l-about row">
-<a name="about"></a>
-<h1 class="text-center">ThingMonk 2016<span>Developers, Data, Design: The New Industrial</span></h1>
-    <p>ThingMonk is the developer conference for people building the internet of things. We bring together the technologists building the core infrastructure for IoT for 2 days of awesome, unique talks.</p>
-    <p>We're about the makers, people turning ideas and concepts into systems, platforms and communities.</p>
-    <p>This year we're also featuring an extra "Day 0" event, including a half day conference within a conference dedicated to the Eclipse Foundation's IoT ecosystem, and back by popular demand, a half day into evening hackday with Coding by Candlelight.</p>
-    <p>ThingMonk 2016 will be held in the heart of Shoreditch at Shoreditch Studios, 37 Batemans Row, EC2A 3HH</p>
 
-    <div class="l-news">
-        <h3>News</h3>
+<div id="sections" class="sections">
+  <section id="thingmonk" data-magellan-target="thingmonk" class="bg--red-1"></section>
+  <section id="about" data-magellan-target="about" class="bg--red-1">
+
+    <div class="l-about row">
+    <a name="about"></a>
+    <h1>ThingMonk 2016<span>Developers, Data, Design: The New Industrial</span></h1>
+        <p>ThingMonk is the developer conference for people building the internet of things. We bring together the technologists building the core infrastructure for IoT for 2 days of awesome, unique talks.</p>
+        <p>We're about the makers, people turning ideas and concepts into systems, platforms and communities.</p>
+        <p>This year we're also featuring an extra "Day 0" event, including a half day conference within a conference dedicated to the Eclipse Foundation's IoT ecosystem, and back by popular demand, a half day into evening hackday with Coding by Candlelight.</p>
+        <p>ThingMonk 2016 will be held in the heart of Shoreditch at Shoreditch Studios, 37 Batemans Row, EC2A 3HH</p>
+    </div>
+
+  </section>
+  <section id="news" data-magellan-target="news" class="bg--red-2">
+
+    <div class="l-news row -cta">
+      <div class="item">
+        <h2>News</h2>
         <ul class="c-news">
             {% for post in site.posts %}
             <li><a href="{{ post.url }}">{{post.title}}</a></li>
             {% endfor %}
         </ul><!--speakers-->
+      </div>
     </div><!--News-->
+
+  </section>
+  <section id="speakers" data-magellan-target="speakers" class="bg--red-3">
+
+    <div class="-cta">
+        <div class="row">
+          <div class="small-12 medium-12 columns text-center">
+            <div class="item">
+                <h2>ThingMonk Speakers</h2>
+                <div class="c-speakers c-speakers__grid">
+                {% for speaker in site.data.speakers %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 1 %}
+                <div class="c-speaker__item">
+                  <a href="thingmonk-talks.html#{{ speaker.twitter }}">
+                    <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
+                    <h4 class="c-speaker__name">{{ speaker.name }}</h4>
+                 </a>
+                 <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
+                </div>
+                {% else %}
+                <div class="c-speaker__item">
+                  <a href="thingmonk-talks.html#{{ speaker.twitter }}">
+                    <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
+                    <h4 class="c-speaker__name">{{ speaker.name }}</a></h4>
+                    <!-- <p class="c-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}">@{{speaker.twitter}}</p> -->
+                  </a>
+                  <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
+                </div>
+                {% endif %}
+                {% endfor %}
+                </div><!--speakers-->
+              </div><!--item-->
+            </div><!--columns-->
+        </div><!--row-->
+    </div><!--speakers-->
+
+
+  </section>
+  <section id="speakerseclipse" data-magellan-target="speakerseclipse" class="bg--red-4">
+
+    <div class="l-eclipse -cta">
+      <div class="row">
+        <div class="small-12 medium-12 columns text-center">
+            <div class="item">
+              <h2>Eclipse Day Speakers</h2>
+              <div class="c-speakers c-speakers__grid--small">
+              {% for speaker in site.data.eclipse_speakers %}
+                <div class="c-speaker__item">
+                  <a href="eclipse-day-talks.html#{{ speaker.twitter }}">
+                    <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
+                    <h4 class="c-speaker__name">{{speaker.name}}</h4>
+                    <!-- <p class="c-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}">@{{speaker.twitter}}</p> -->
+                  </a>
+                </div>
+              {% endfor %}
+              </div><!--speakers-->
+            </div><!--item-->
+            </div><!--columns-->
+      </div><!--row-->
+    </div><!--speakers-->
+
+
+  </section>
+  <section id="buy" data-magellan-target="buy" class="bg--red-5">
+
+    <div class="l-papers -cta">
+      <div class="row">
+    <div class="small-12 medium-4 columns text-center">
+      <div class="item">
+      <h3>Call For Papers</h3>
+      <p class="desc">We are now accepting proposals for ThingMonk 2016.</p>
+      <p><a href="http://goo.gl/forms/r6K5tYsyZi"><button type="button" class="btn btn-success btn-sm">Submit a Paper</button></a></p>
+      </div>
+    </div>
+    <div class="small-12 medium-4 columns text-center">
+      <div class="item">
+      <h3>Sponsorship Details</h3>
+      <p class="desc">Interested in sponsoring ThingMonk? Read the details on our sponsor pack. </p>
+      <p><a href="/sponsor-pack.html"><button type="button" class="btn btn-success btn-sm">Sponsor Us</button></a></p>
+      </div>
+    </div>
+    <div class="small-12 medium-4 columns text-center">
+      <div class="item">
+      <h3>Attend</h3>
+      <p class="desc">Tickets for ThingMonk, the Eclipse IoT Day and both events are now on sale</p>
+      <p><a href="https://www.eventbrite.co.uk/e/thingmonk-2016-tickets-24733051222"><button type="button" class="btn btn-success btn-sm">Buy Tickets</button></a></p>
+      </div>
+    </div><!--columns-->
+  </div><!--row-->
+  </div><!--papers-->
+
+  </section>
+
+  <section id="coc" data-magellan-target="coc"  class="bg--red-6">
+    <div class="-cta row">
+      <div class="item">
+      <div class="item-content">
+      <h2>Code of Conduct</h2>
+      <p>All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
+      <p>tl;dr: Be excellent with each other</p>
+      <p><a href="coc.html" class="btn">Read more</a></p>
+      </div>
+      </div>
+    </div>
+  </section>
+
 </div>
-
-<div class="l-speakers -cta">
-    <div class="row">
-      <div class="small-12 medium-12 columns text-center">
-        <div class="item">
-            <h3>ThingMonk Speakers</h3>
-            <div class="c-speakers c-speakers__grid">
-            {% for speaker in site.data.speakers %}
-            {% assign mod = forloop.index | modulo: 2 %}
-            {% if mod == 1 %}
-            <div class="c-speaker__item">
-              <a href="thingmonk-talks.html#{{ speaker.twitter }}">
-                <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
-                <h4 class="c-speaker__name">{{ speaker.name }}</h4>
-             </a>
-             <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
-            </div>
-            {% else %}
-            <div class="c-speaker__item">
-              <a href="thingmonk-talks.html#{{ speaker.twitter }}">
-                <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
-                <h4 class="c-speaker__name">{{ speaker.name }}</a></h4>
-                <!-- <p class="c-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}">@{{speaker.twitter}}</p> -->
-              </a>
-              <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
-            </div>
-            {% endif %}
-            {% endfor %}
-            </div><!--speakers-->
-          </div><!--item-->
-        </div><!--columns-->
-    </div><!--row-->
-</div><!--speakers-->
-
-  <div class="l-eclipse -cta">
-    <div class="row">
-      <div class="small-12 medium-12 columns text-center">
-          <div class="item">
-            <h3>Eclipse Day Speakers</h3>
-            <div class="c-speakers c-speakers__grid--small">
-            {% for speaker in site.data.eclipse_speakers %}
-              <div class="c-speaker__item">
-                <a href="eclipse-day-talks.html#{{ speaker.twitter }}">
-                  <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
-                  <h4 class="c-speaker__name">{{speaker.name}}</h4>
-                  <!-- <p class="c-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}">@{{speaker.twitter}}</p> -->
-                </a>
-              </div>
-            {% endfor %}
-            </div><!--speakers-->
-          </div><!--item-->
-          </div><!--columns-->
-    </div><!--row-->
-  </div><!--speakers-->
-
-  <div class="l-papers -cta">
-    <div class="row">
-  <div class="small-12 medium-4 columns text-center">
-    <div class="item">
-    <h3>Call For Papers</h3>
-    <p class="desc">We are now accepting proposals for ThingMonk 2016.</p>
-    <p><a href="http://goo.gl/forms/r6K5tYsyZi"><button type="button" class="btn btn-success btn-sm">Submit a Paper</button></a></p>
-    </div>
-  </div>
-  <div class="small-12 medium-4 columns text-center">
-    <div class="item">
-    <h3>Sponsorship Details</h3>
-    <p class="desc">Interested in sponsoring ThingMonk? Read the details on our sponsor pack. </p>
-    <p><a href="/sponsor-pack.html"><button type="button" class="btn btn-success btn-sm">Sponsor Us</button></a></p>
-    </div>
-  </div>
-  <div class="small-12 medium-4 columns text-center">
-    <div class="item">
-    <h3>Attend</h3>
-    <p class="desc">Tickets for ThingMonk, the Eclipse IoT Day and both events are now on sale</p>
-    <p><a href="https://www.eventbrite.co.uk/e/thingmonk-2016-tickets-24733051222"><button type="button" class="btn btn-success btn-sm">Buy Tickets</button></a></p>
-    </div>
-  </div><!--columns-->
-</div><!--row-->
-</div><!--papers-->

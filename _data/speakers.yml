@@ -1,20 +1,20 @@
 - name: Sam Phippen
   photo: samp.jpg
-  bio: Sam Phippen is a Swashbuckling Hacker from London, U.K. He hugs all the servers at Digital Ocean. He fights for the forces of justice as an open source maintainer of RSpec, the most popular testing framework in Ruby. In the future a whole new generation of artists will be writing genomes with the fluency that Blake and Byron wrote verses. He's sad he can't hug every cat   
+  bio: Sam Phippen is a Swashbuckling Hacker from London, U.K. He hugs all the servers at Digital Ocean. He fights for the forces of justice as an open source maintainer of RSpec, the most popular testing framework in Ruby. In the future a whole new generation of artists will be writing genomes with the fluency that Blake and Byron wrote verses. He's sad he can't hug every cat
   talktitle: The Moment Seizes
   talkabstract: Long nows, making it how you imagined and the Internet of Things. Let's look 400,000 years into the past, through now, and cast forward in to the future. Let's talk about the Internet of Things from the moment. Let's stop, and reflect for just a second, about how shifting our perspective can change the ways that we invent, the ways that we tinker, the ways that we bring delightful future possibilities in to being. <p > In this talk, you'll learn about a summary of the entire history of human technology and what it can teach us, going forward, about how we sustainably build the Internet of Things.
   twitter: samphippen
 
 - name: Alasdair Allan
   photo: aallan.jpg
-  bio:
+  bio: Director, Babilim Light Industries. Alasdair Allan is a scientist, author, and hacker. Originally an astrophysicist he now works as a consultant and journalist, focusing on open hardware, security, and emerging technologies. In the past he has mesh networked the Moscone Center, caused a U.S. Senate hearing, and contributed to the detection of what was—at the time—the most distant object yet discovered.
   talktitle: The Little Things of Horror
   talkabstract: The current age where privacy is no longer regarded as 'a social norm' may not long survive the coming of the Internet of Things. To a lot of people the digital Internet still isn't as real as the outside world. But it's going to be a different matter altogether when your things tattle on you behind your back. <p> If everything is smart, everything will soon be measuring, calculating, and weighing your life. Suddenly its not just your email, or the photographs of your cat, but your heart rate, your respiration rate, how, and who, you slept with the night before.  <p>But the rush to connect devices to the Internet has led to sloppy privacy, and sloppy security. That can't continue. We therefore will pick over the Internet of Things battlefield of the last couple of years and point out poor architectural choices, poor decisions, and poorly secured things. The hope is that these battle stories can inform future architectures, and make hindsight the best foresight.
   twitter: aallan
 
 - name: Yodit Stanton
   photo: yodit.jpg
-  bio: CEO, OpenSensors.io &amp; ThingMonk Regular 
+  bio: CEO, OpenSensors.io &amp; ThingMonk Regular
   talktitle: TBC
   talkabstract: TBC
   twitter: yoditstanton
@@ -35,7 +35,7 @@
 
 - name: Kirsten Hunter
   photo: kirstenh.jpg
-  bio: Kirsten Hunter is an unapologetic hacker and passionate advocate for the development community. Her technical interests range from graph databases to cloud services, and her experience supporting and evangelizing REST APIs has given her a unique perspective on developer success. In her copious free time she’s a gamer, fantasy reader, and all around rabble-rouser. 
+  bio: Kirsten Hunter is an unapologetic hacker and passionate advocate for the development community. Her technical interests range from graph databases to cloud services, and her experience supporting and evangelizing REST APIs has given her a unique perspective on developer success. In her copious free time she’s a gamer, fantasy reader, and all around rabble-rouser.
   talktitle: Quantifying your Fitness
   talkabstract: Kirsten has created a system, available on Github, which interacts with Fitbit, MyFitnessPal, and Withings, to create a health tracking system. It will send nagging notes via SMS using Twilio, change the colors of a Philips hue lightbulb based on progress for the day, and interact with any other API-driven service. Examples of all of these will be shared with you! What Gets Measured Gets Done!<p />This live demo is a lot of fun :-)
   twitter: synedra
@@ -44,12 +44,12 @@
   photo: tracym.jpg
   bio:
   talktitle: The 7 Habits of Highly Diverse Communities
-  talkabstract: IoT is transforming our societies. But how do we ensure we don't end up solving IoT problems for just the elite, or a tiny percentage of society? Fortunately there are diverse communities out there we can learn from. This talk distils 7 habits learnt from these communities and a framework for sustaining diverse IoT communities. The more diverse our IoT communities the more secure and resilient society will be. 
+  talkabstract: IoT is transforming our societies. But how do we ensure we don't end up solving IoT problems for just the elite, or a tiny percentage of society? Fortunately there are diverse communities out there we can learn from. This talk distils 7 habits learnt from these communities and a framework for sustaining diverse IoT communities. The more diverse our IoT communities the more secure and resilient society will be.
   twitter: tracymiranda
 
 - name: Terence Eden
   photo: edent.png
-  bio: Terence Eden is a Digital Troublemaker & Unicode Wizard. He has tweeting solar panels and an Internet controlled robot vacuum cleaner.  He likes hacking his car, blogging, and writing in the third person. 
+  bio: Terence Eden is a Digital Troublemaker & Unicode Wizard. He has tweeting solar panels and an Internet controlled robot vacuum cleaner.  He likes hacking his car, blogging, and writing in the third person.
   talktitle: The (Connected) House of Horrors - Why you should run screaming from the Internet of Things in a domestic setting
   talkabstract: I've connected as much of my house as I can to the Internet of Things. This is the story about how I nearly burned down my house, opened my network to Chinese hackers, wrecked my sanity, electrocuted myself, spent far too much money, automated my domestic chores, electrocuted myself again, spent even more money, drilled holes in my home, filled in those holes and drilled some more holes, hacked my security cameras, bought kit from a start-up which went bust, alienated my family, and generally had a terrible, terrible time.  But my robot vacuum cleaner now tweets - which is pretty cool, I guess.
   twitter: edent
@@ -70,13 +70,13 @@
 
 - name: Alexandra Deschamps-Sonsino
   photo: alexds.png
-  bio: Alexandra is an interaction designer, product designer, entrepreneur based in London.<p > She was named 2nd in Top 100 Internet of Things Thought Leaders (Onalytica, 2014) and in the Top 100 Influencial Tech Women on Twitter (Business Insider, 2014).<p > She is the founder of the Good Night Lamp, connected lamps for your global friends and family.<p > She is also the Director of designswarm a strategic consultancy focusing on the internet of things. Some of her clients include BBC R&amp;D, Nokia, British Gas, EDF R&D and British Telecom. <p > She was co-founder and CEO of Tinker London, a smart product design studio. Tinker was the first distributor of the Arduino platform in the UK.<p /> She has been running the London Internet of Things meetup since 2011, one of the largest meetups on that topic in the world.  <p />Her work has been exhibited at the Museum of Modern Art in New York, the Victoria & Albert Museum and galleries around the world. 
+  bio: Alexandra is an interaction designer, product designer, entrepreneur based in London.<p > She was named 2nd in Top 100 Internet of Things Thought Leaders (Onalytica, 2014) and in the Top 100 Influencial Tech Women on Twitter (Business Insider, 2014).<p > She is the founder of the Good Night Lamp, connected lamps for your global friends and family.<p > She is also the Director of designswarm a strategic consultancy focusing on the internet of things. Some of her clients include BBC R&amp;D, Nokia, British Gas, EDF R&D and British Telecom. <p > She was co-founder and CEO of Tinker London, a smart product design studio. Tinker was the first distributor of the Arduino platform in the UK.<p /> She has been running the London Internet of Things meetup since 2011, one of the largest meetups on that topic in the world.  <p />Her work has been exhibited at the Museum of Modern Art in New York, the Victoria & Albert Museum and galleries around the world.
   talktitle: TBC
   talkabstract: TBC
   twitter: iotwatch
 
 - name: Boris Adryan
-  photo: borisa.jpg 
+  photo: borisa.jpg
   bio: Boris Adryan ("Boris", or "Dr. Adryan") has a long-standing interest in big data analytics and machine learning. From 2008 to 2015 he lead a method development group at the University of Cambridge. Since 2013 he has been a consultant and hired hand for mostly London based IoT companies. As regular conference presenter, he is talking about the opportunities and challenges of data analytics for the Internet of Things. In 2016 Boris did his personal Brexit and joined Zühlke Engineering in Frankfurt to support their IoT and data analytics activities.
   talktitle: Just because you can doesn't mean that you should
   talkabstract: Big data! Fast data! Real-time analytics! These are buzzwords commonly associated with platform offerings around IoT.  <p />Although the Law of large numbers always applies, just because you can deploy more sensors doesn't automatically mean that you should. After all, they cost money, bandwidth, and can be a pain to maintain. On the example of the Westminster Parking Trial, I'd like to show how analytics on preliminary survey data could have reduced the number of deployed sensors significantly.<p />  A similar logic goes for fast and real-time analytics. While being advertised as killer features, many people new to IoT and analytics are not even aware that they might get away with batch processing. On the example of flying a drone (don't worry, theoretically, unless you can give me one), I'd like to discuss for which use cases I'd apply edge processing (on the drone), stream or micro-batch analytics (when data arrives at the platform) or work on batched data (stored in a database).
@@ -101,11 +101,11 @@
   bio: Head of Developer Relations, SAP
   talktitle: TBC
   talkabstract: TBC
-  twitter: grassl 
+  twitter: grassl
 
 - name: Haiyan Zhang
   photo: haiyanz.jpg
   bio: Innovation Director, Microsoft Research
   talktitle: TBC
   talkabstract: TBC
-  twitter: haiyan 
+  twitter: haiyan

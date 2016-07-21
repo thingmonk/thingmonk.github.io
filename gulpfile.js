@@ -4,7 +4,9 @@ var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync');
 var useref = require('gulp-useref');
+var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var pump = require('pump');
 var gulpIf = require('gulp-if');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
@@ -38,11 +40,28 @@ gulp.task('sass', function() {
     }));
 })
 
+//Scripts
+gulp.task('concat', function() {
+  return gulp.src('app/js/*.js')
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('dist/js'));
+});
+
+gulp.task('compress', function (cb) {
+  pump([
+        gulp.src('dist/*.js'),
+        uglify(),
+        gulp.dest('dist')
+    ],
+    cb
+  );
+});
+
 // Watchers
 gulp.task('watch', function() {
   gulp.watch('app/scss/**/*.scss', ['sass']);
   gulp.watch('app/*.html', browserSync.reload);
-  gulp.watch('app/js/**/*.js', browserSync.reload);
+  gulp.watch('app/js/**/*.js', ['concat', 'compress']);
 })
 
 // Optimization Tasks

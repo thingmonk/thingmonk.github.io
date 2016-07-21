@@ -120,8 +120,8 @@ h6 {
 
 /* Global typogpraphy */
 p, td, label {
-    font-size: rem-calc(16);
-    line-height: 18px;
+    font-size: rem-calc(18);
+    line-height: 22px;
     margin:0 0 $module-spacing 0;
     font-weight: normal;
 }
@@ -155,7 +155,7 @@ ul, ol {
         margin:0 0 $margin $margin;
     }
     li {
-        font-size: rem-calc(16);
+        font-size: rem-calc(18);
         line-height: 1.5em;
     }
 }

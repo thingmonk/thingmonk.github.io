@@ -1,8 +1,28 @@
 {% include thingmonk-header.html %}
 
-
   <div class="content">
     <main id="mainContent" role="main" class="primary small-12 columns">
+
+      <div data-sticky-container>
+        <div class="sticky" id="sticky-magellan" data-sticky data-margin-top="0" data-top-anchor="sections" data-sticky-on="large">
+        <div class="c-nav">
+          <nav data-magellan class="c-nav__nav">
+          <ul class="horizontal menu expanded">
+            <li class="c-nav__highlight">
+              <a href="/index.html#thingmonk"><span>Thingmonk</span> September 2016</a>
+            </li>
+            <li><a href="/index.html#about">About</a></li>
+            <li><a href="/index.html#news">News</a></li>
+            <li><a href="/index.html#speakers">ThingMonk Speakers</a></li>
+            <li><a href="/index.html#speakerseclipse">Eclipse Day Speakers</a></li>
+            <li><a href="/index.html#buy">Buy tickets</a></li>
+            <li><a href="/index.html#coc">Code of Conduct</a></li>
+          </ul>
+          </nav>
+        </div>
+        </div>
+      </div>
+
       {{ content }}
     </main>
   </div>
