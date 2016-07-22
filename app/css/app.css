@@ -3483,12 +3483,16 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     display: inline-block; }
   .c-speakers .c-speaker__avatar {
     display: block;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin: 0 auto 0.5em;
     border: 6px solid #f7f6f1;
     box-sizing: content-box; }
+    @media screen and (min-width: 40em) {
+      .c-speakers .c-speaker__avatar {
+        width: 140px;
+        height: 140px; } }
     @media screen and (min-width: 64em) {
       .c-speakers .c-speaker__avatar {
         width: 180px;
@@ -3498,8 +3502,11 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
   .c-speakers .c-speaker__name {
     color: #444444;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     margin: 5px 0 10px; }
+    @media screen and (min-width: 40em) {
+      .c-speakers .c-speaker__name {
+        font-size: 18px; } }
     .c-speakers .c-speaker__name a {
       color: #444444; }
   .c-speakers .c-speaker__twitter {
@@ -3509,22 +3516,28 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     font-size: 12px; }
 
 .c-speakers__grid .c-speaker__item {
+  float: left;
   width: 40%;
-  margin: 0 1rem 1rem; }
+  margin: 0 5% 1rem;
+  min-height: 180px; }
   @media screen and (min-width: 40em) {
     .c-speakers__grid .c-speaker__item {
-      width: 30%;
-      margin: 0 2rem 2rem; } }
+      width: 23%;
+      margin: 0 5% 1rem;
+      min-height: 230px; } }
   @media screen and (min-width: 64em) {
     .c-speakers__grid .c-speaker__item {
-      width: 25%; } }
+      min-height: 275px;
+      width: 18%;
+      margin: 0 3% 1rem; } }
 
 .c-speakers__grid--small .c-speaker__item {
+  float: left;
   width: 40%;
-  margin-bottom: 2rem; }
-  @media screen and (min-width: 64em) {
+  margin: 0 5% 1rem; }
+  @media screen and (max-width: 39.9375em) {
     .c-speakers__grid--small .c-speaker__item {
-      width: 40%; } }
+      min-height: 180px; } }
 
 .l-talk {
   padding: 2rem;

@@ -222,8 +222,12 @@
 	}
 	.c-speaker__avatar {
 		display: block;
-		width: 120px;
-		height: 120px;
+		width: 100px;
+		height: 100px;
+		@media #{$medium-up} {
+			width: 140px;
+			height: 140px;
+		}
 		@media #{$large-up} {
 			width: 180px;
 			height: 180px;
@@ -239,7 +243,10 @@
 	.c-speaker__name {
 		color:$rm-dark-grey;
 		font-weight: bold;
-		font-size: 18px;
+		font-size: 15px;
+		@media #{$medium-up} {
+			font-size: 18px;
+		}
 		margin:5px 0 10px;
 		a {
 			color:$rm-dark-grey;
@@ -256,24 +263,30 @@
 
 .c-speakers__grid {
 	.c-speaker__item {
+		float:left;
 		width:40%;
-		margin:0 1rem 1rem;
+		margin: 0 5% 1rem;
+		min-height:180px;
 		@media #{$medium-up} {
-			width:30%;
-			margin:0 2rem 2rem;
+			width:23%;
+			margin:0 5% 1rem;
+			min-height:230px;
 		}
 		@media #{$large-up} {
-			width:25%;
+			min-height:275px;
+			width:18%;
+			margin:0 3% 1rem;
 		}
 	}
 }
 
 .c-speakers__grid--small {
 	.c-speaker__item {
+		float:left;
 		width:40%;
-		margin-bottom:2rem;
-		@media #{$large-up} {
-			width:40%;
+		margin: 0 5% 1rem;
+		@media #{$small-only} {
+			min-height:180px;
 		}
 	}
 }
