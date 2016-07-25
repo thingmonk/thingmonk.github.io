@@ -7,9 +7,9 @@
 
 - name: Kai Hudalla
   photo: kaih.jpg
-  bio: Chief Software Architect, Bosch Software Innovations
-  talktitle: TBC
-  talkabstract: TBC
+  bio: Kai Hudalla has been working at Bosch on solutions for the Internet of Things in application domains like smart home, energy management, e-mobility, and automotive long before the term reached its recent popularity and ubiquity. <br>He is an active committer on several Eclipse IoT projects and has just recently started the Hono project together with other members from the community, aiming at providing an integration platform for connecting millions of devices to the cloud. <p>Kai holds a degree in mathematics from University of Hannover in Germany and enjoys playing a round of golf whenever weather conditions permit."
+  talktitle: Towards an Open IoT Stack for the Cloud
+  talkabstract: Throughout the last years the open source community has produced a lot of valuable technology for implementing IoT applications. However, most of this technology still requires a lot of low-level knowledge in order to make proper use of it. Now the time has come to take this technology to the next level. <p>Let me tell you about the latest efforts within the IoT Working Group at Eclipse to create an open source based stack of components for implementing IoT solutions at cloud scale.
   twitter: 
 
 - name: Benjamin Cabé
