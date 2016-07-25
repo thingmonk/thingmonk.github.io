@@ -1,3 +1,10 @@
+- name: Benjamin Cabé
+  photo: benjaminc.jpg
+  bio: Benjamin Cabé, Internet of Things enthusiast and evangelist at the Eclipse Foundation, has years of experience in connecting things, big and small, together. <p>He is advocating the use of open source technologies to build Internet of Things solutions, which led him to cofound the Eclipse IoT Working Group in 2011. This working group has become a thriving community of 25+ open source projects, hundreds of developers, and thousands of users.
+  talktitle: "Open Source Internet of Things: an overview of Eclipse IoT"
+  talkabstract: IoT is the new black, and you sure want to be trendy and cool, and claim that you're doing IoT too! Open source initiatives like Eclipse IoT have your back covered by providing you with the building blocks needed for enabling IoT solutions. <p>We would like to welcome you to the Eclipse IoT Day by giving you an introduction to the key challenges of IoT and an overview of the approach undertaken by Eclipse IoT to develop an ecosystem of open-source technologies that will help you connect and manage your current and future IoT devices.
+  twitter: kartben
+
 - name: Kamil Baczkowicz
   photo: kamilb.jpg
   bio: Kamil is a Technical Architect at DeltaRail. He’s been working with MQTT and other messaging technologies since 2009 as part of the IECC Scalable development programme – the leading railway signalling control system in the UK. Author of @mqtt_spy.
@@ -12,16 +19,9 @@
   talkabstract: Throughout the last years the open source community has produced a lot of valuable technology for implementing IoT applications. However, most of this technology still requires a lot of low-level knowledge in order to make proper use of it. Now the time has come to take this technology to the next level. <p>Let me tell you about the latest efforts within the IoT Working Group at Eclipse to create an open source based stack of components for implementing IoT solutions at cloud scale.
   twitter: 
 
-- name: Benjamin Cabé
-  photo: benjaminc.jpg
-  bio: Benjamin Cabé, Internet of Things enthusiast and evangelist at the Eclipse Foundation, has years of experience in connecting things, big and small, together. <p>He is advocating the use of open source technologies to build Internet of Things solutions, which led him to cofound the Eclipse IoT Working Group in 2011. This working group has become a thriving community of 25+ open source projects, hundreds of developers, and thousands of users.
-  talktitle: TBC
-  talkabstract: TBC
-  twitter: kartben
-
 - name: Patrizia Gufler
   photo: patriziag.jpg
   bio: IoT Architect, IBM Watson IoT
-  talktitle: TBC
+  talktitle: Connecting Eclipse Kura to IBM Watson
   talkabstract: TBC
   twitter: pattygufler
