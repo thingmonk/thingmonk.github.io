@@ -3539,6 +3539,27 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     .c-speakers__grid--small .c-speaker__item {
       min-height: 180px; } }
 
+.c-sessions {
+  border-bottom: 1px solid #fff; }
+  .c-sessions .c-sessions__single {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+    .c-sessions .c-sessions__single.is-start time {
+      font-weight: bold;
+      font-size: 120%; }
+    .c-sessions .c-sessions__single time {
+      display: inline-block;
+      width: 25%;
+      color: #fff;
+      vertical-align: top; }
+    .c-sessions .c-sessions__single .session-description {
+      display: inline-block;
+      width: 65%;
+      padding-left: 0; }
+      .c-sessions .c-sessions__single .session-description a {
+        text-decoration: underline; }
+        .c-sessions .c-sessions__single .session-description a:hover {
+          text-decoration: none; }
+
 .l-talk {
   padding: 2rem;
   background-color: #fff;

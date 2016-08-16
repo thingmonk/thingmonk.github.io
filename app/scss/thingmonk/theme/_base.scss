@@ -291,6 +291,37 @@
 	}
 }
 
+.c-sessions {
+	border-bottom:1px solid $white;
+	.c-sessions__single {
+		border-bottom:1px solid rgba($white, 0.4);
+		&.is-start {
+			time {
+				font-weight: bold;
+				font-size:120%;
+			}
+		}
+		time {
+			display: inline-block;
+			width: 25%;
+			color:$white;
+			vertical-align: top;
+		}
+		.session-description {
+			display: inline-block;
+			width: 65%;
+			padding-left: 0;
+			a {
+				text-decoration: underline;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+
+		}
+	}
+}
+
 
 //Talks
 .l-talk {
