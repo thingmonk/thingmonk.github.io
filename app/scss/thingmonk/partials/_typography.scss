@@ -74,7 +74,7 @@ h1 {
     margin:0 0 $margin;
     font-size: rem-calc(30);
     @media #{$large-up} {
-        font-size: rem-calc(40);
+        font-size: rem-calc(36);
         margin:0 0 ($margin * 1.5);
     }
     line-height: 34px;

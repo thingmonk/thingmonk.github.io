@@ -2960,7 +2960,7 @@ h1 {
   @media screen and (min-width: 64em) {
     
     h1 {
-      font-size: 2.5rem;
+      font-size: 2.25rem;
       margin: 0 0 30px; } }
   
   h1 span {
@@ -3372,11 +3372,13 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
   padding: 20px; }
   @media screen and (min-width: 64em) {
     .l-about {
-      padding: 80px 0 20px;
+      padding: 60px 0 20px;
       overflow: hidden; } }
 
 .l-block {
   padding: 2rem; }
+  .l-block h2, .l-block h3 {
+    width: 100%; }
 
 .l-speakers {
   background-color: #4C0805; }
@@ -3411,6 +3413,9 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     font-size: 1rem;
     font-weight: bold;
     padding: 1rem 2rem; }
+    @media screen and (min-width: 64em) {
+      .rm-masthead .btn {
+        font-size: 1.125rem; } }
     .rm-masthead .btn:hover {
       background-color: #040000; }
 
@@ -3465,13 +3470,14 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
       @media screen and (min-width: 64em) {
         .-cta .item h3 {
           display: inline-block; } }
+    .-cta .item h4 {
+      margin-bottom: 1em; }
     .-cta .item .desc {
       clear: both; }
     .-cta .item .btn {
       border-width: 2px; }
     .-cta .item .item-content {
-      text-align: left;
-      max-width: 40rem; }
+      text-align: left; }
       .-cta .item .item-content h2 {
         text-align: left; }
 
@@ -3533,11 +3539,14 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
 
 .c-speakers__grid--small .c-speaker__item {
   float: left;
-  width: 40%;
+  width: 15%;
   margin: 0 5% 1rem; }
   @media screen and (max-width: 39.9375em) {
     .c-speakers__grid--small .c-speaker__item {
       min-height: 180px; } }
+  .c-speakers__grid--small .c-speaker__item .c-speaker__avatar {
+    width: 140px;
+    height: 140px; }
 
 .c-sessions {
   border-bottom: 1px solid #fff; }
@@ -3657,6 +3666,10 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
 
 .-padding-top {
   padding-top: 20px; }
+
+.text-center {
+  text-align: center !important;
+  width: 100%; }
 
 .pagination {
   margin: 0 auto; }
