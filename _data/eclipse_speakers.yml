@@ -30,7 +30,7 @@
   photo: borisa.jpg
   bio: Boris Adryan ("Boris", or "Dr. Adryan") has a long-standing interest in big data analytics and machine learning. From 2008 to 2015 he lead a method development group at the University of Cambridge. Since 2013 he has been a consultant and hired hand for mostly London based IoT companies. In 2016 Boris did his personal Brexit and joined Zühlke Engineering in Frankfurt to support their IoT and data analytics activities.
   talktitle: IoT, Info Models and Ontologies
-  talkabstract: TBC
+  talkabstract: How do devices in the Internet of Things communicate their abilities? Independent of any representation of a device in a programming language or an IoT platform, a good information model can capture features and properties of a physical device, which can be translated into unambiguous code or domain-specific languages. The Eclipse Vorto project offers a set of tools and a platform that can be used to develop and share information models and code generators. Information models can further be augmented with ontological information, i.e. how devices relate to each other (think ‘thermostat’ and ‘boiler’). This talk is going to provide a high-level overview of Vorto and why the Eclipse SmartHome project has recently started to engage with ontologies.
   twitter: BorisAdryan
 
 - name: Dan Gross
