@@ -92,31 +92,40 @@ layout: thingmonk
 
 
   </section>
-  <!--
   <section id="sponsors" data-magellan-target="agenda" class="bg-red-5">
     <div class="l-sponsors row -cta">
     <div class="item">
       <h2>Sponsors</h2>
-      <hr />
-      <h3 class="text-center">Unobtainium</h3>
+      <!-- <h3 class="text-center">Unobtainium</h3>
       <h3 class="text-center">Neodymium</h3>
       <h3 class="text-center">Graphene</h3>
-      <h3 class="text-center">Lithium Ion</h3>
-      <hr />
+      <h3 class="text-center">Lithium Ion</h3> -->
       <h4 class="text-center">Coding WorkShop</h4>
-      <h4 class="text-center">Evening Party Sponsor</h4>
+      {% for sponsor in site.data.cw_sponsors %}
+      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      {% endfor %}
+      <!-- <h4 class="text-center">Evening Party Sponsor</h4> -->
       <h4 class="text-center">Video Sponsor</h4>
-      <h4 class="text-center">Lunch Sponsor</h4>
+      {% for sponsor in site.data.video_sponsors %}
+      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      {% endfor %}
+      <!-- <h4 class="text-center">Lunch Sponsor</h4>
       <h4 class="text-center">Awesome Coffee</h4>
       <h4 class="text-center">Round of Drinks</h4>
       <h4 class="text-center">Breakfast</h4>
-      <h4 class="text-center">Conference Snacks</h4>
+      <h4 class="text-center">Conference Snacks</h4> -->
+      <h4 class="text-center">Diversity Sponsorship</h4>
+      {% for sponsor in site.data.diversity_sponsors %}
+      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      {% endfor %}
       <hr />
       <h2>Eclipse Day Sponsors</h2>
+      {% for sponsor in site.data.eclipse_sponsors %}
+      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      {% endfor %}
     </div>
     </div>
   </section>
-  -->
 
   <section id="agenda" data-magellan-target="agenda" class="bg--red-2">
 
