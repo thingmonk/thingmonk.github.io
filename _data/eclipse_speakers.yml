@@ -23,7 +23,7 @@
   photo: patriziag.jpg
   bio: IoT Architect, IBM Watson IoT
   talktitle: Connecting Eclipse Kura to IBM Watson
-  talkabstract: TBC
+  talkabstract: Eclipse Kura is a modular and extensible platform for building IoT gateways. In this talk you will learn more about the main features of Kura, and how easy it is to extend it with support for new IoT cloud platforms like IBM Watson IoT.
   twitter: pattygufler
 
 - name: Boris Adryan
