@@ -3539,7 +3539,7 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
 
 .c-speakers__grid--small .c-speaker__item {
   float: left;
-  width: 15%;
+  width: 23%;
   margin: 0 5% 1rem; }
   @media screen and (max-width: 39.9375em) {
     .c-speakers__grid--small .c-speaker__item {
@@ -3591,6 +3591,24 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
   .c-talk .c-talk-speaker__bio p {
     font-style: italic;
     font-size: 14px; }
+
+.l-sponsors h4 {
+  font-size: 1.25rem;
+  color: #900f0f;
+  text-transform: uppercase; }
+  @media screen and (min-width: 64em) {
+    .l-sponsors h4 {
+      font-size: 1.375rem;
+      margin-top: 2rem; } }
+
+.l-sponsors .l-sponsors__sponsor {
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.l-sponsors .l-sponsors__logo {
+  max-width: 150px;
+  margin: 0 auto;
+  display: inline-block; }
 
 /**
 * 7.0 - Accessibility

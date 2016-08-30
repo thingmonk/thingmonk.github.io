@@ -292,7 +292,7 @@
 .c-speakers__grid--small {
 	.c-speaker__item {
 		float:left;
-		width:15%;
+		width:23%;
 		// min-height:180px;
 		margin: 0 5% 1rem;
 		@media #{$small-only} {
@@ -367,6 +367,28 @@
 			font-style: italic;
 			font-size: 14px;
 		}
+	}
+}
+
+//Sponsers
+.l-sponsors {
+	h4 {
+		font-size: rem-calc(20);
+		color:darken($rm-red, 30%);
+		text-transform: uppercase;
+		@media #{$large-up} {
+			font-size: rem-calc(22);
+			margin-top:2rem;
+		}
+	}
+	.l-sponsors__sponsor {
+			text-align: center;
+			margin-bottom:2rem;
+	}
+	.l-sponsors__logo {
+		max-width: 150px;
+		margin:0 auto;
+		display: inline-block;
 	}
 }
 

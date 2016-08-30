@@ -86,6 +86,65 @@ layout: thingmonk
                 </div>
               {% endfor %}
               </div><!--speakers-->
+              <hr />
+              <h3 class="text-center">Eclipse Day Agenda</h3>
+              <hr />
+              <!-- Eclipse Day -->
+              <ol class="c-sessions">
+                <li class="c-sessions__single is-start">
+                  <time>Day 0</time>
+                  <div class="session-description">
+                    <p>The ThingMonk "Day 0" event is on September 12, featuring a half day conference dedicated to the <a href="/index.html#speakerseclipse">Eclipse Foundation's IoT ecosystem</a>, starting at 9:30am, with registration from 9:00</p>
+                    <p>After lunch, we are also bringing the ThingMonk hackday back, starting at 1:30pm, and it is going to be epic. We’ll have workshops on programming with IBM Watson, Pycom and Amazon Alexa Skills (tbc). We have been talking about Conversational IoT for the last couple of years, so it's time to start building it. People talking to machines talking to people. We'll definitely have some Echos to play with, and expect a couple of giveaways too. This won't be a competitive event, but a great place to learn, meet people and build cool things. We’ll finish the day Coding by Candelight until 9pm.</p>
+                  </div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>9:00</time>
+                  <div class="session-description"><p>Registration</p></div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>9:30</time>
+                  <div class="session-description">
+                    <p><a href="http://thingmonk.com/eclipse-day-talks.html#kartben">Open Source Internet of Things: an overview of Eclipse IoT</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#kartben">Benjamin Cabé</a></p>
+                  </div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>9:55</time>
+                  <div class="session-description">
+                      <p><a href="http://thingmonk.com/eclipse-day-talks.html#kamilfb84">Running UK railway with Eclipse Paho & Mosquitto</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#kamilfb84">Kamil Baczkowicz</a></p>
+                  </div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>10:20</time>
+                  <div class="session-description">
+                      <p><a href="http://thingmonk.com/eclipse-day-talks.html#pattygufler">Connecting Eclipse Kura to IBM Watson</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#pattygufler">Patrizia Gufler</a></p>
+                  </div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>10:45</time>
+                  <div class="session-description"><p>Coffee Break</p></div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>11:05</time>
+                  <div class="session-description"><p><a href="http://thingmonk.com/eclipse-day-talks.html#">Towards an Open IoT Stack for the Cloud</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#">Kai Hudalla </a></p></div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>11:30</time>
+                  <div class="session-description"><p><a href="http://thingmonk.com//eclipse-day-talks.html#dangross">The right tools for IoT developers</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#dangross">Dan Gross</a></p></div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>11:55</time>
+                  <div class="session-description"><p><a href="http://thingmonk.com/eclipse-day-talks.html#BorisAdryan">IoT, Info Models and Ontologies</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#BorisAdryan">Boris Adryan</a></p></div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>12:30</time>
+                  <div class="session-description"><p>Lunch</p></div>
+                </li>
+                <li class="c-sessions__single">
+                  <time>13:30</time>
+                  <div class="session-description"><p>The ThingMonk Hackday, until 21:30</p></div>
+                </li>
+              </ol>
             </div><!--item-->
             </div><!--columns-->
       </div><!--row-->
@@ -93,106 +152,51 @@ layout: thingmonk
 
 
   </section>
-  <section id="sponsors" data-magellan-target="agenda" class="bg-red-5">
+  <section id="sponsors" data-magellan-target="agenda" class="">
     <div class="l-sponsors row -cta">
     <div class="item">
       <h2>Sponsors</h2>
-      <!-- <h3 class="text-center">Unobtainium</h3>
-      <h3 class="text-center">Neodymium</h3>
-      <h3 class="text-center">Graphene</h3>
-      <h3 class="text-center">Lithium Ion</h3> -->
-      <h4 class="text-center">Coding WorkShop</h4>
+      <!-- <h4>Unobtainium</h4>
+      <h4>Neodymium</h4>
+      <h4>Graphene</h4>
+      <h4>Lithium Ion</h4> -->
+      <div class="l-sponsors__sponsor">
+      <h4>Coding WorkShop</h4>
       {% for sponsor in site.data.cw_sponsors %}
-      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
       {% endfor %}
-      <!-- <h4 class="text-center">Evening Party Sponsor</h4> -->
-      <h4 class="text-center">Video Sponsor</h4>
+      </div>
+      <!-- <h4>Evening Party Sponsor</h4> -->
+      <div class="l-sponsors__sponsor">
+      <h4>Video Sponsor</h4>
       {% for sponsor in site.data.video_sponsors %}
-      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
       {% endfor %}
-      <!-- <h4 class="text-center">Lunch Sponsor</h4>
-      <h4 class="text-center">Awesome Coffee</h4>
-      <h4 class="text-center">Round of Drinks</h4>
-      <h4 class="text-center">Breakfast</h4>
-      <h4 class="text-center">Conference Snacks</h4> -->
-      <h4 class="text-center">Diversity Sponsorship</h4>
+      </div>
+      <!-- <h4>Lunch Sponsor</h4>
+      <h4>Awesome Coffee</h4>
+      <h4>Round of Drinks</h4>
+      <h4>Breakfast</h4>
+      <h4>Conference Snacks</h4> -->
+      <div class="l-sponsors__sponsor">
+      <h4>Diversity Sponsorship</h4>
       {% for sponsor in site.data.diversity_sponsors %}
-      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
       {% endfor %}
+      </div>
       <hr />
       <h2>Eclipse Day Sponsors</h2>
+      <div class="l-sponsors__sponsor">
       {% for sponsor in site.data.eclipse_sponsors %}
-      <div align="center"><a href="http://{{ sponsor.url }}"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
       {% endfor %}
+      </div>
     </div>
     </div>
   </section>
 
   <section id="agenda" data-magellan-target="agenda" class="bg--red-2">
 
-    <div class="l-agenda row -cta">
-      <div class="item">
-      <h2>Day 0 Agenda</h2>
-      <hr />
-      <!-- Eclipse Day -->
-      <ol class="c-sessions">
-        <li class="c-sessions__single is-start">
-          <time>Day 0</time>
-          <div class="session-description">
-            <p>The ThingMonk "Day 0" event is on September 12, featuring a half day conference dedicated to the <a href="/index.html#speakerseclipse">Eclipse Foundation's IoT ecosystem</a>, starting at 9:30am, with registration from 9:00</p>
-                    <p>After lunch, we are also bringing the ThingMonk hackday back, starting at 1:30pm, and it is going to be epic. We’ll have workshops on programming with IBM Watson, Pycom and Amazon Alexa Skills (tbc). We have been talking about Conversational IoT for the last couple of years, so it's time to start building it. People talking to machines talking to people. We'll definitely have some Echos to play with, and expect a couple of giveaways too. This won't be a competitive event, but a great place to learn, meet people and build cool things. We’ll finish the day Coding by Candelight until 9pm.</p>
-          </div>
-        </li>
-        <li class="c-sessions__single">
-          <time>9:00</time>
-          <div class="session-description"><p>Registration</p></div>
-        </li>
-        <li class="c-sessions__single">
-          <time>9:30</time>
-          <div class="session-description">
-            <p><a href="http://thingmonk.com/eclipse-day-talks.html#kartben">Open Source Internet of Things: an overview of Eclipse IoT</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#kartben">Benjamin Cabé</a></p>
-          </div>
-        </li>
-        <li class="c-sessions__single">
-          <time>9:55</time>
-          <div class="session-description">
-              <p><a href="http://thingmonk.com/eclipse-day-talks.html#kamilfb84">Running UK railway with Eclipse Paho & Mosquitto</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#kamilfb84">Kamil Baczkowicz</a></p>
-          </div>
-        </li>
-        <li class="c-sessions__single">
-          <time>10:20</time>
-          <div class="session-description">
-              <p><a href="http://thingmonk.com/eclipse-day-talks.html#pattygufler">Connecting Eclipse Kura to IBM Watson</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#pattygufler">Patrizia Gufler</a></p>
-          </div>
-        </li>
-        <li class="c-sessions__single">
-          <time>10:45</time>
-          <div class="session-description"><p>Coffee Break</p></div>
-        </li>
-        <li class="c-sessions__single">
-          <time>11:05</time>
-          <div class="session-description"><p><a href="http://thingmonk.com/eclipse-day-talks.html#">Towards an Open IoT Stack for the Cloud</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#">Kai Hudalla </a></p></div>
-        </li>
-        <li class="c-sessions__single">
-          <time>11:30</time>
-          <div class="session-description"><p><a href="http://thingmonk.com//eclipse-day-talks.html#dangross">The right tools for IoT developers</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#dangross">Dan Gross</a></p></div>
-        </li>
-        <li class="c-sessions__single">
-          <time>11:55</time>
-          <div class="session-description"><p><a href="http://thingmonk.com/eclipse-day-talks.html#BorisAdryan">IoT, Info Models and Ontologies</a> - <a href="http://thingmonk.com/eclipse-day-talks.html#BorisAdryan">Boris Adryan</a></p></div>
-        </li>
-        <li class="c-sessions__single">
-          <time>12:30</time>
-          <div class="session-description"><p>Lunch</p></div>
-        </li>
-        <li class="c-sessions__single">
-          <time>13:30</time>
-          <div class="session-description"><p>The ThingMonk Hackday, until 21:30</p></div>
-        </li>
-      </ol>
-  </ol>
-  </div>
-  </div>
     <div class="l-agenda row -cta">
       <div class="item">
       <h2>Day 1-2 Agenda</h2>
