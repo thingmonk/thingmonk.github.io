@@ -380,6 +380,14 @@
 			font-size: rem-calc(22);
 			margin-top:2rem;
 		}
+		&:after {
+			content:"";
+			background-color:darken($rm-red, 30%);
+			height:5px;
+			display: block;
+			max-width: 60%;
+			margin:12px 20% 0 20%;
+		}
 	}
 	.l-sponsors__sponsor {
 			text-align: center;

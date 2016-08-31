@@ -3600,6 +3600,13 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     .l-sponsors h4 {
       font-size: 1.375rem;
       margin-top: 2rem; } }
+  .l-sponsors h4:after {
+    content: "";
+    background-color: #900f0f;
+    height: 5px;
+    display: block;
+    max-width: 60%;
+    margin: 12px 20% 0 20%; }
 
 .l-sponsors .l-sponsors__sponsor {
   text-align: center;
