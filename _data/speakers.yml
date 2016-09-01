@@ -99,8 +99,8 @@
 - name: Thomas Grassl
   photo: thomasg.jpg
   bio: Head of Developer Relations, SAP
-  talktitle: TBC
-  talkabstract: TBC
+  talktitle: Moving Containers at Scale 
+  talkabstract: We are talking about real containers, ships, trucks, cranes and traffic which create very complex logistical hub challenge. IoT is not so new here and many moving parts like the containers have been tracked over years, the next new challenge these ports embark on are in the areas of logistic networks, connected business and more and more automation. In this talk we will go deep into how such a networked logistic hub works, what sensor and open data is being captured, how this is being used to process and automate large logistical flows.
   twitter: grassl
 
 - name: Haiyan Zhang
