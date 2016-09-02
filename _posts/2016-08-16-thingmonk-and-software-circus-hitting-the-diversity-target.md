@@ -7,7 +7,7 @@ categories: thingmonk
 
 <h1 class="text-center">Thingmonk and Software Circus hitting their diversity targets</h1>
 <p />
-<a href="http://jgovernor-media.redmonk.com/jgovernor/files/2016/08/diversitycharter-horizontal.png"><img class="size-full wp-image-4300 aligncenter" src="http://jgovernor-media.redmonk.com/jgovernor/files/2016/08/diversitycharter-horizontal.png" alt="diversitycharter-horizontal" width="544" height="207" /></a></p>
+<a href="http://jgovernor-media.redmonk.com/jgovernor/files/2016/08/diversitycharter-horizontal.png"><img class="size-full wp-image-4300 aligncenter" src="http://jgovernor-media.redmonk.com/jgovernor/files/2016/08/diversitycharter-horizontal.png" alt="diversitycharter-horizontal" width="544" height="207" /></a>
 <p>axiom 1 &#8211; tech events are simply better when they&#8217;re diverse and inclusive</p>
 <p>axiom 2 &#8211; event organisers should always make an effort to encourage diversity of speakers</p>
 <p>axiom 3 &#8211; event organisers should always make an effort to encourage inclusion for all attendees</p>

@@ -30,7 +30,7 @@
   photo: johans.jpg
   bio: Johan Stokking is tech lead and co-founder of The Things Network. Together with a strong community, he is on a mission to build an open, crowd sourced and decentralized internet of things data network. The city of Amsterdam was covered in six weeks. Global coverage is next. <p> Johan started The Things Network in the summer of 2015 with Wienke Giezeman. With over a 100 communities worldwide, impact on thousands of people and a reach in the millions, they are committed to build the global network together with the community.
   talktitle: The Things Network
-  talkabstract: TBC
+  talkabstract: The Things Network
   twitter: johanstokking
 
 - name: Kirsten Hunter
@@ -72,7 +72,7 @@
   photo: alexds.png
   bio: Alexandra is an interaction designer, product designer, entrepreneur based in London.<p > She was named 2nd in Top 100 Internet of Things Thought Leaders (Onalytica, 2014) and in the Top 100 Influencial Tech Women on Twitter (Business Insider, 2014).<p > She is the founder of the Good Night Lamp, connected lamps for your global friends and family.<p > She is also the Director of designswarm a strategic consultancy focusing on the internet of things. Some of her clients include BBC R&amp;D, Nokia, British Gas, EDF R&D and British Telecom. <p > She was co-founder and CEO of Tinker London, a smart product design studio. Tinker was the first distributor of the Arduino platform in the UK.<p /> She has been running the London Internet of Things meetup since 2011, one of the largest meetups on that topic in the world.  <p />Her work has been exhibited at the Museum of Modern Art in New York, the Victoria & Albert Museum and galleries around the world.
   talktitle: 5 Years Old&#58; Thoughts on the IOT Scene in London
-  talkabstract: TBC
+  talkabstract: 5 Years Old&#58; Thoughts on the IOT Scene in London
   twitter: iotwatch
 
 - name: Boris Adryan
@@ -85,15 +85,15 @@
 - name: Kyle Roche
   photo: kylem.jpg
   bio: GM, IOT, Amazon Web Services
-  talktitle: TBC
-  talkabstract: TBC
+  talktitle: IoT and the Environment
+  talkabstract:IoT and the Environment
   twitter: kylemroche
 
 - name: Matt Biddulph
   photo: mattb.jpg
   bio: Matt Biddulph is co-founder of Thington Inc, who are building a new way to interact with a world of connected things. He was co-founder of Dopplr, the social network for smarter travel acquired by Nokia in 2009. He started out in 1994 building search engines on CD-ROM, and now specialises in real-time data, social software, and connecting the real world to the web
-  talktitle: TBC
-  talkabstract: TBC
+  talktitle: Continuing the Conversation
+  talkabstract: Continuing the Conversation
   twitter: mattb
 
 - name: Thomas Grassl
@@ -171,4 +171,11 @@
   bio: Greg is the Director of the Developer Ecosystem an team in the IoT Business Unit. Greg’s team creates and runs programs targeted directly to developers and large ecosystems around silicon vendors, board manufacturers, universities and software communities like Hackathons and technology workshops. The team develops on-line educational materials, examples, recipes and general outreach to anyone interested in working with the IBM IoT Platform.<p /> Greg joined IBM through acquisition in 2008, where he served in several positions at Telelogic ranging from field engineer to sales executive to Vice President of Product Management over his 20 year history. Prior to Telelogic, Greg was with McDonnell-Douglas and Honeywell Air Transport, where he led a software and systems team creating crew station displays for fighter aircraft and commercial jetliners.  Greg graduated from the University of Missouri and is an AIPMM Certified Product Manager and INCOSE Expert Systems Engineering Professional. In his spare time Greg mentors a FIRST Robotics team in Allen, TX, inspiring young people to become engineers.
   talktitle: The Power of One - How developers can single-handedly create transformative IoT applications
   talkabstract: TBC
-  twitter: gregorygorman 
+  twitter: gregorygorman
+
+- name: Clare Sutcliffe
+  photo: claresutcliffe.jpg
+  bio: Executive Director at Raspberry Pi Foundation. Co-founder of CodeClub and CodeClubWorld.
+  talktitle: TBC
+  talkabstract: TBC
+  twitter: ClareSutcliffe 
