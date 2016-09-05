@@ -20,4 +20,3 @@ All of us at <a href="http://redmonk.com">RedMonk</a> are privileged and immense
 companies like <a href="http://opensensors.io">OpenSensors</a>, that want to help the technology industry become a more diverse and welcoming place. 
 <p />
 Tickets for ThingMonk are <a href="https://www.eventbrite.co.uk/e/thingmonk-2016-tickets-24733051222">on sale now</a>.
-</div> 
