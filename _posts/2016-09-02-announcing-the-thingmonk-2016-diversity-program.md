@@ -34,4 +34,3 @@ It includes a free pack of <a href="http://moo.com">MOO</a> business cards for e
 It’s resulted in a record-bursting 21 scholarship applications for 10 available spots. So we accepted them all. Every single one. 
 <p>
 We are extremely proud of our diversity programme, and hope it provides a guideline to other conferences about goals they can set, and objectives they can achieve. After all, we’re all in this together. 
-</div>
