@@ -1,3 +1,7 @@
 - name: OpenSensors
   url: opensensors.io
   image: opensensors.png
+
+- name: Web of Things
+  url: webofthings.org
+  image: wot-book-cover-small.png
