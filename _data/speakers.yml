@@ -120,8 +120,8 @@
 - name: Stefan Ferber
   photo: stefan.jpg
   bio: Stefan Ferber is VP for Engineering at Bosch Software Innovations GmbH in Germany – the Bosch Group’s software and systems house with responsibility for the Bosch IoT Suite. Ferber represents Bosch on the board of the Eclipse Foundation, driving open source strategy for industrial IoT. Ferber also represented Bosch in the German “Industrie 4.0 Platform”. Ferber is a member of the European “Internet of Things Council“. With more than twenty years of experience in software development, software processes, software product lines and software architectures for embedded systems, computer vision, and IT domains.
-  talktitle: TBC
-  talkabstract: TBC
+  talktitle: What is Different in Internet of Things for Internet of Things
+  talkabstract: What is Different in Internet of Things for Internet of Things
   twitter: Stefferber
 
 - name: Ling Tan
