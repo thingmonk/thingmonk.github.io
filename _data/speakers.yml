@@ -176,6 +176,6 @@
 - name: Charlie Issacs
   photo: charlieissacs.jpg
   bio: Charlie Issacs is CTO for Customer Connection at Salesforce 
-  talktitle: Title TBC
-  talkabstract: Title TBC
+  talktitle: Hacking to Find IoT Data Insights
+  talkabstract: What better way to learn how to find critical insights in massive amounts of IoT data than from a hackathon? In July 2016 teams in the Digital Manufacturing Commons HackDMC hackathon provided 24GB of machine data from  ITAMCO (Indiana Technology and Manufacturing Companies), collected over 4 years from more than 75 shop floor machines. The teams found compelling needles in the data haystack. During this session you will learn about the techniques used by the winners to process the massive amounts of machine events and turn those events into business actions and intelligence.
   twitter: charlieissacs 
