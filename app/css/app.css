@@ -3546,7 +3546,10 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
       min-height: 180px; } }
   .c-speakers__grid--small .c-speaker__item .c-speaker__avatar {
     width: 140px;
-    height: 140px; }
+    height: auto; }
+    @media screen and (min-width: 40em) {
+      .c-speakers__grid--small .c-speaker__item .c-speaker__avatar {
+        height: 140px; } }
 
 .c-sessions {
   border-bottom: 1px solid #fff; }
@@ -3563,7 +3566,8 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
     .c-sessions .c-sessions__single .session-description {
       display: inline-block;
       width: 65%;
-      padding-left: 0; }
+      padding-left: 0;
+      color: white; }
       .c-sessions .c-sessions__single .session-description a {
         text-decoration: underline; }
         .c-sessions .c-sessions__single .session-description a:hover {
@@ -3616,6 +3620,8 @@ http://www.456bereastreet.com/archive/201212/ios_webkit_browsers_and_auto-zoomin
   max-width: 150px;
   margin: 0 auto;
   display: inline-block; }
+  .l-sponsors .l-sponsors__logo.l-sponsors__logo-big {
+    max-width: 300px; }
 
 /**
 * 7.0 - Accessibility

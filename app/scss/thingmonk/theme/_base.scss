@@ -300,7 +300,12 @@
 		}
 		.c-speaker__avatar {
 			width: 140px;
-			height: 140px;
+			height:auto;
+			@media #{$medium-up} {
+				height: 140px;
+			}
+
+
 		}
 	}
 }
@@ -325,6 +330,7 @@
 			display: inline-block;
 			width: 65%;
 			padding-left: 0;
+			color:white;
 			a {
 				text-decoration: underline;
 				&:hover {
@@ -397,6 +403,9 @@
 		max-width: 150px;
 		margin:0 auto;
 		display: inline-block;
+		&.l-sponsors__logo-big {
+			max-width: 300px;
+		}
 	}
 }
 
