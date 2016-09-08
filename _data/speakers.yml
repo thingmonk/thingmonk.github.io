@@ -173,9 +173,9 @@
   talkabstract: TBC
   twitter: gregorygorman
 
-- name: Charlie Issacs
+- name: Charlie Isaacs 
   photo: charlieissacs.jpg
-  bio: Charlie Issacs is CTO for Customer Connection at Salesforce 
+  bio: Charlie Isaacs has a track record of R&D leadership at companies like Verizon, Answer Systems (acquired by Computer Associates), Broad Daylight (sold to Primus Knowledge, then ATG and then Oracle), and CTO Kana(Verint). After Kana he joined Alcatel-Lucent/Genesys as VP of Innovation. Charlie is VP/CTO for Customer Connection and claims to have “the best job at Salesforce” as he incubates customers worldwide onto the Salesforce IoT platform.  Charlie holds a BSEE from the UC Santa Barbara and an MBA from California Lutheran University. He holds several patents related to CRM and the Internet of Things. He volunteers at organizations helping women and minorities enter STEM fields. 
   talktitle: Hacking to Find IoT Data Insights
   talkabstract: What better way to learn how to find critical insights in massive amounts of IoT data than from a hackathon? In July 2016 teams in the Digital Manufacturing Commons HackDMC hackathon provided 24GB of machine data from  ITAMCO (Indiana Technology and Manufacturing Companies), collected over 4 years from more than 75 shop floor machines. The teams found compelling needles in the data haystack. During this session you will learn about the techniques used by the winners to process the massive amounts of machine events and turn those events into business actions and intelligence.
   twitter: charlieissacs 
