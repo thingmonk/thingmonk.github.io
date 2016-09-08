@@ -73,7 +73,8 @@ layout: thingmonk
       <div class="row">
         <div class="small-12 medium-12 columns text-center">
             <div class="item">
-              <h2>Day 0</h2>
+                <h2>Day 0</h2>
+                <h2>Eclipse Day &amp; ThingMonk Hack Day / Coding Workshop</h2>
               <h2>Eclipse Day Speakers</h2>
               <div class="c-speakers c-speakers__grid--small">
               {% for speaker in site.data.eclipse_speakers %}
@@ -87,7 +88,7 @@ layout: thingmonk
               {% endfor %}
               </div><!--speakers-->
               <hr />
-              <h3 class="text-center">Eclipse Day Agenda</h3>
+              <h3 class="text-center">Eclipse Day & ThingMonk Hack Day / Coding Workshop Agenda</h3>
               <hr />
               <!-- Eclipse Day -->
               <ol class="c-sessions">
@@ -176,11 +177,15 @@ layout: thingmonk
     <div class="l-sponsors row -cta">
     <div class="item">
       <h2>Sponsors</h2>
-      <!-- <h4>Unobtainium</h4>
+      <div class="l-sponsors__sponsor">
+      <h4>Unobtainium</h4>
+      {% for sponsor in site.data.u_sponsors %}
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+      {% endfor %}
+      <!--
       <h4>Neodymium</h4>
       <h4>Graphene</h4>
       <h4>Lithium Ion</h4> -->
-      <div class="l-sponsors__sponsor">
       <h4>Coding WorkShop</h4>
       {% for sponsor in site.data.cw_sponsors %}
       <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
