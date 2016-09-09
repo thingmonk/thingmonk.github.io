@@ -21,7 +21,7 @@
 
 - name: Patrizia Gufler
   photo: patriziag.jpg
-  bio: IoT Architect, IBM Watson IoT
+  bio: Patrizia Gufler has been fascinated about the Internet of Things for years, and joined IBM in 2015 to work on everything IoT, from helping customers transition to an IoT mindset, to helping build Watson IoT and creating all sort of cool demos for tradeshows. On her free time, she enjoys hiking, biking, skiing, and anything that involves going out in the mountains.
   talktitle: Connecting Eclipse Kura to IBM Watson
   talkabstract: Eclipse Kura is a modular and extensible platform for building IoT gateways. In this talk you will learn more about the main features of Kura, and how easy it is to extend it with support for new IoT cloud platforms like IBM Watson IoT.
   twitter: pattygufler
