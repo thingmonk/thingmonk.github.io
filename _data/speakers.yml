@@ -99,14 +99,14 @@
 - name: Thomas Grassl
   photo: thomasg.jpg
   bio: Head of Developer Relations, SAP
-  talktitle: Moving Containers at Scale 
+  talktitle: Moving Containers at Scale
   talkabstract: We are talking about real containers, ships, trucks, cranes and traffic which create very complex logistical hub challenge. IoT is not so new here and many moving parts like the containers have been tracked over years, the next new challenge these ports embark on are in the areas of logistic networks, connected business and more and more automation. In this talk we will go deep into how such a networked logistic hub works, what sensor and open data is being captured, how this is being used to process and automate large logistical flows.
   twitter: grassl
 
 - name: Haiyan Zhang
   photo: haiyanz.jpg
   bio: Innovation Director, Microsoft Research
-  talktitle: TBC
+  talktitle: Expressive Interfaces for the Internet of Things
   talkabstract: TBC
   twitter: haiyan
 
@@ -145,9 +145,9 @@
   talkabstract: What if the pitfalls identified in Peter Deutsch’s “eight fallacies of distributed computing” were not inconveniences but opportunities? We present our view of the emerging patterns within distributed systems architecture and argue for a modern semantics of distributed systems based on sympathy with the network. In our approach, event sourcing and stream processing provide the processing model, while microservices and bounded contexts provide the domain model.  We discuss the implementation of Concursus, an open source framework for bringing event sourcing patterns to distributed applications, which represents the evolution of our thinking about event sourcing, based on our practical experience of implementing IoT systems in production.
   twitter: dynamic_proxy
 
-- name: Martin Gale 
+- name: Martin Gale
   photo: martinjgale.jpg
-  bio: Martin has spent twenty years in IT where he has dedicated his career to working with new technology and applying it in business. Having begun as web developer building online shops, he's also worked on the development of MQTT and related products in the IBM development lab, served as the chief architect for key customers and most recently became the technical leader for IBM's Industrial Sector business in the UK. Martin is also an IBM Master Inventor, with many of his patents coming from solving problems associated with embedding IT in unusual environments. 
+  bio: Martin has spent twenty years in IT where he has dedicated his career to working with new technology and applying it in business. Having begun as web developer building online shops, he's also worked on the development of MQTT and related products in the IBM development lab, served as the chief architect for key customers and most recently became the technical leader for IBM's Industrial Sector business in the UK. Martin is also an IBM Master Inventor, with many of his patents coming from solving problems associated with embedding IT in unusual environments.
   talktitle: Living life on the edge
   talkabstract: When we talk about the IoT we often instinctively think of large numbers of distributed sensors all connecting back to the cloud for analysis and action. For a variety of reasons, this approach, however, doesn't always nicely fit the scenarios we see in industrial contexts. In this talk we'll look at how we can harness the IoT at the edge of the network as well as in the cloud, and the good reasons why we might want to do so.
   twitter: martinjgale
@@ -161,9 +161,9 @@
 
 - name: Ronald McCollam
   photo: ronaldmccollam.jpg
-  bio: Ronald McCollam is a "geek of all trades" with experience ranging from full stack development to IT operations to management and sales.  He has been involved in technology and open source software since a stack of 3.5" Slackware floppies was the *easy* way to install Linux and gained a healthy respect for security during his years in IT operations management.  Ronald currently works at Resin.io helping to bring the speed and process of web DevOps to hardware management. 
+  bio: Ronald McCollam is a "geek of all trades" with experience ranging from full stack development to IT operations to management and sales.  He has been involved in technology and open source software since a stack of 3.5" Slackware floppies was the *easy* way to install Linux and gained a healthy respect for security during his years in IT operations management.  Ronald currently works at Resin.io helping to bring the speed and process of web DevOps to hardware management.
   talktitle: End-to-End or Bust - The Building Blocks of a Successful IoT Project
-  talkabstract: Simply connecting IoT devices to the internet does nothing to create value. A successful IoT project is one that gives customers full end-to-end control and the ability to turn insights into improvements. Within such an end-to-end IoT environment, security vulnerabilities are detected and patched immediately, edge algorithms are continuously improved based on real world results, and business processes are changed to result in massive gains in operational efficiency. <p /> Achieving these results requires the coordinated efforts of three IoT building blocks - modules, data, and code. Join Samsung and resin.io to see such an environment in action, using open and extensible technologies. Included in this session is a demonstration of how insights gained from data within ARTIK Cloud result in new software deployed to a fleet of ARTIK devices using resin.io's IoT software deployment and management service.  
+  talkabstract: Simply connecting IoT devices to the internet does nothing to create value. A successful IoT project is one that gives customers full end-to-end control and the ability to turn insights into improvements. Within such an end-to-end IoT environment, security vulnerabilities are detected and patched immediately, edge algorithms are continuously improved based on real world results, and business processes are changed to result in massive gains in operational efficiency. <p /> Achieving these results requires the coordinated efforts of three IoT building blocks - modules, data, and code. Join Samsung and resin.io to see such an environment in action, using open and extensible technologies. Included in this session is a demonstration of how insights gained from data within ARTIK Cloud result in new software deployed to a fleet of ARTIK devices using resin.io's IoT software deployment and management service.
   twitter: RonaldMcCollam
 
 - name: Greg Gorman
@@ -173,9 +173,9 @@
   talkabstract: TBC
   twitter: gregorygorman
 
-- name: Charlie Isaacs 
+- name: Charlie Isaacs
   photo: charlieissacs.jpg
-  bio: Charlie Isaacs has a track record of R&D leadership at companies like Verizon, Answer Systems (acquired by Computer Associates), Broad Daylight (sold to Primus Knowledge, then ATG and then Oracle), and CTO Kana(Verint). After Kana he joined Alcatel-Lucent/Genesys as VP of Innovation. Charlie is VP/CTO for Customer Connection and claims to have “the best job at Salesforce” as he incubates customers worldwide onto the Salesforce IoT platform.  Charlie holds a BSEE from the UC Santa Barbara and an MBA from California Lutheran University. He holds several patents related to CRM and the Internet of Things. He volunteers at organizations helping women and minorities enter STEM fields. 
+  bio: Charlie Isaacs has a track record of R&D leadership at companies like Verizon, Answer Systems (acquired by Computer Associates), Broad Daylight (sold to Primus Knowledge, then ATG and then Oracle), and CTO Kana(Verint). After Kana he joined Alcatel-Lucent/Genesys as VP of Innovation. Charlie is VP/CTO for Customer Connection and claims to have “the best job at Salesforce” as he incubates customers worldwide onto the Salesforce IoT platform.  Charlie holds a BSEE from the UC Santa Barbara and an MBA from California Lutheran University. He holds several patents related to CRM and the Internet of Things. He volunteers at organizations helping women and minorities enter STEM fields.
   talktitle: Hacking to Find IoT Data Insights
   talkabstract: What better way to learn how to find critical insights in massive amounts of IoT data than from a hackathon? In July 2016 teams in the Digital Manufacturing Commons HackDMC hackathon provided 24GB of machine data from  ITAMCO (Indiana Technology and Manufacturing Companies), collected over 4 years from more than 75 shop floor machines. The teams found compelling needles in the data haystack. During this session you will learn about the techniques used by the winners to process the massive amounts of machine events and turn those events into business actions and intelligence.
-  twitter: charlieissacs 
+  twitter: charlieissacs
