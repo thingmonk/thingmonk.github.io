@@ -82,12 +82,12 @@
   talkabstract: Big data! Fast data! Real-time analytics! These are buzzwords commonly associated with platform offerings around IoT.  <p />Although the Law of large numbers always applies, just because you can deploy more sensors doesn't automatically mean that you should. After all, they cost money, bandwidth, and can be a pain to maintain. On the example of the Westminster Parking Trial, I'd like to show how analytics on preliminary survey data could have reduced the number of deployed sensors significantly.<p />  A similar logic goes for fast and real-time analytics. While being advertised as killer features, many people new to IoT and analytics are not even aware that they might get away with batch processing. On the example of flying a drone, I'd like to discuss for which use cases I'd apply edge processing (on the drone), stream or micro-batch analytics (when data arrives at the platform) or work on batched data (stored in a database).
   twitter: BorisAdryan
 
-- name: Sarah Cooper
-  photo: sarahcopper.jpg
-  bio: GM, IOT Solutions, Amazon Web Services
+- name: Ian Massingham
+  photo: ianm.jpg
+  bio: Technical Evangelist, Amazon Web Services
   talktitle: IoT and the Environment
   talkabstract: IoT and the Environment
-  twitter: smc_on_iot
+  twitter: IanMmmm
 
 - name: Matt Biddulph
   photo: mattb.jpg
@@ -178,4 +178,4 @@
   bio: Charlie Isaacs has a track record of R&D leadership at companies like Verizon, Answer Systems (acquired by Computer Associates), Broad Daylight (sold to Primus Knowledge, then ATG and then Oracle), and CTO Kana(Verint). After Kana he joined Alcatel-Lucent/Genesys as VP of Innovation. Charlie is VP/CTO for Customer Connection and claims to have “the best job at Salesforce” as he incubates customers worldwide onto the Salesforce IoT platform.  Charlie holds a BSEE from the UC Santa Barbara and an MBA from California Lutheran University. He holds several patents related to CRM and the Internet of Things. He volunteers at organizations helping women and minorities enter STEM fields. 
   talktitle: Hacking to Find IoT Data Insights
   talkabstract: What better way to learn how to find critical insights in massive amounts of IoT data than from a hackathon? In July 2016 teams in the Digital Manufacturing Commons HackDMC hackathon provided 24GB of machine data from  ITAMCO (Indiana Technology and Manufacturing Companies), collected over 4 years from more than 75 shop floor machines. The teams found compelling needles in the data haystack. During this session you will learn about the techniques used by the winners to process the massive amounts of machine events and turn those events into business actions and intelligence.
-  twitter: charlieissacs 
+  twitter: charlieissacs
