@@ -4,6 +4,8 @@
   talktitle: "Open Source Internet of Things: an overview of Eclipse IoT"
   talkabstract: IoT is the new black, and you sure want to be trendy and cool, and claim that you're doing IoT too! Open source initiatives like Eclipse IoT have your back covered by providing you with the building blocks needed for enabling IoT solutions. <p>We would like to welcome you to the Eclipse IoT Day by giving you an introduction to the key challenges of IoT and an overview of the approach undertaken by Eclipse IoT to develop an ecosystem of open-source technologies that will help you connect and manage your current and future IoT devices.
   twitter: kartben
+  video: https://www.youtube.com/watch?v=HoxK5Kk6ClI
+#  slides:
 
 - name: Kamil Baczkowicz
   photo: kamilb.jpg
@@ -11,6 +13,8 @@
   talktitle: Running UK railway with Eclipse Paho & Mosquitto
   talkabstract: A success story of using MQTT and Eclipse IoT components in DeltaRail's state-of-the-art signalling control system. Overview of the architecture, lessons learnt and best practises in using MQTT for highly reliable, high-throughput, low-latency messaging in a safety-related environment.
   twitter: kamilfb84
+  video: https://www.youtube.com/watch?v=OTbpUbTO5_I
+  slides: http://www.slideshare.net/kartben/running-uk-railway-with-eclipse-paho-and-eclipse-mosquitto-eclipse-iot-day-thingmonk-2016
 
 - name: Kai Hudalla
   photo: kaih.jpg
@@ -18,6 +22,8 @@
   talktitle: Towards an Open IoT Stack for the Cloud
   talkabstract: Throughout the last years the open source community has produced a lot of valuable technology for implementing IoT applications. However, most of this technology still requires a lot of low-level knowledge in order to make proper use of it. Now the time has come to take this technology to the next level. <p>Let me tell you about the latest efforts within the IoT Working Group at Eclipse to create an open source based stack of components for implementing IoT solutions at cloud scale.
   twitter: BoschSI
+  video: https://www.youtube.com/watch?v=086-TmygL2o
+  slides: https://www.slideshare.net/kartben/towards-an-open-iot-stack-for-the-cloud-thingmonk-2016
 
 - name: Patrizia Gufler
   photo: patriziag.jpg
@@ -25,6 +31,8 @@
   talktitle: Connecting Eclipse Kura to IBM Watson
   talkabstract: Eclipse Kura is a modular and extensible platform for building IoT gateways. In this talk you will learn more about the main features of Kura, and how easy it is to extend it with support for new IoT cloud platforms like IBM Watson IoT.
   twitter: pattygufler
+ # video: https://www.youtube.com/watch?v=q120humQBsk
+ # slides: 
 
 - name: Boris Adryan
   photo: borisa.jpg
@@ -32,6 +40,8 @@
   talktitle: IoT, Info Models and Ontologies
   talkabstract: How do devices in the Internet of Things communicate their abilities? Independent of any representation of a device in a programming language or an IoT platform, a good information model can capture features and properties of a physical device, which can be translated into unambiguous code or domain-specific languages. The Eclipse Vorto project offers a set of tools and a platform that can be used to develop and share information models and code generators. Information models can further be augmented with ontological information, i.e. how devices relate to each other (think ‘thermostat’ and ‘boiler’). This talk is going to provide a high-level overview of Vorto and why the Eclipse SmartHome project has recently started to engage with ontologies.
   twitter: BorisAdryan
+  video: https://www.youtube.com/watch?v=PFR_0HWEz1E
+  slides: http://www.slideshare.net/BorisAdryan/eclipse-iot-day-0-of-thingmonk-2016
 
 - name: Dan Gross
   photo: dang.jpg
@@ -39,3 +49,5 @@
   talktitle: The right tools for IoT developers 
   talkabstract: Samsung has introduced the Samsung ARTIK IDE for IoT Developers. This new set of tools is based on Eclipse Che and is designed to make it easy to build, deploy and manage IoT applications. This presentation will demonstrate why creating the right tools for IoT developers make it quicker and easier for IoT application development. 
   twitter: dangross 
+  video: https://www.youtube.com/watch?v=P8Hk5Ir8fXo
+  slides: http://www.slideshare.net/kartben/the-right-tools-for-iot-developers-thingmonk-2016
