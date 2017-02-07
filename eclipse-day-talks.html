@@ -32,6 +32,13 @@ layout: thingmonk
             <div class="c-talk__abstract">
               <p>{{ speaker.talkabstract }}</p>
             </div>
+            {% if speaker.video or speaker.slides %}
+            <p>Presentation: 
+                {% if speaker.video %}<a href="{{ speaker.video }}" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>{% endif %}
+                 / 
+                 {% if speaker.slides %}<a href="{{ speaker.slides }}" target="_blank"><i class="fa fa-slideshare" aria-hidden="true"></i></a>{% endif %}
+            </p>
+            {% endif %}
             <h3 class="c-talk-speaker__name">{{ speaker.name }} Bio</h3>
             <div class="c-talk-speaker__bio">
               <p>{{ speaker.bio }}</p>
