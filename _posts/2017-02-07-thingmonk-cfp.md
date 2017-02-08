@@ -22,8 +22,7 @@ IOT is evolving at an incredible pace, and this years conference themes are
 <li> IOT Programming Models
 <li> Full stack IOT: The power of the network, how connected devices, platforms, services and data come together
 </ul>
-<p />
-Talks are twenty minutes long, and should tell a story. No one is going to learn your API in twenty minutes at a conference, but the attendees at ThingMonk will see new and novel ways to use the technology that you are talking about that you may have not even considered yet.
-<p />
-We would love to hear from you - submit your talk <a href="https://docs.google.com/forms/d/e/1FAIpQLScHWb1aXJVPRaQBdKfy_JvkiRLsbKO2kEhV5nnIUDSWdlICgg/viewform">here</a>.
-</div>
+<p>
+<p>Talks are twenty minutes long, and should tell a story. No one is going to learn your API in twenty minutes at a conference, but the attendees at ThingMonk will see new and novel ways to use the technology that you are talking about that you may have not even considered yet.
+</p>
+<p>We would love to hear from you - submit your talk <a href="https://docs.google.com/forms/d/e/1FAIpQLScHWb1aXJVPRaQBdKfy_JvkiRLsbKO2kEhV5nnIUDSWdlICgg/viewform">here</a>.
