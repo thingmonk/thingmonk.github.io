@@ -13,6 +13,7 @@ The ThingMonk Call for Speakers is now open, and runs until Monday, July 31st 20
 <p />
 IOT is evolving at an incredible pace, and this years conference themes include
 <p>
+&nbsp; &nbsp; - Digital Twin: Bringing the physical &amp; virtual together <br /> 
 &nbsp; &nbsp; - Data, Analytics, Time Series and IOT: how do use, present and aggregate data at IOT scale<br /> 
 &nbsp; &nbsp; - Machine Learning and IOT: how to use machine learning, data and IOT<br /> 
 &nbsp; &nbsp; - Design and IOT:  designing for users, their context and scale<br />
