@@ -37,6 +37,42 @@ layout: thingmonk
 
   </section>
 
+<div class="-cta">
+        <div class="row">
+          <div class="small-12 medium-12 columns text-center">
+            <div class="item">
+                <h2>ThingMonk Speakers</h2>
+                <div class="c-speakers c-speakers__grid">
+                {% for speaker in site.data.speakers %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod == 1 %}
+                <div class="c-speaker__item">
+                  <a href="thingmonk-talks.html#{{ speaker.twitter }}">
+                    <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
+                    <h4 class="c-speaker__name">{{ speaker.name }}</h4>
+                 </a>
+                 <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
+                </div>
+                {% else %}
+                <div class="c-speaker__item">
+                  <a href="thingmonk-talks.html#{{ speaker.twitter }}">
+                    <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}" >
+                    <h4 class="c-speaker__name">{{ speaker.name }}</a></h4>
+                    <!-- <p class="c-speaker__twitter"><a href="http://twitter.com/{{ speaker.twitter }}">@{{speaker.twitter}}</p> -->
+                  </a>
+                  <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
+                </div>
+                {% endif %}
+                {% endfor %}
+                </div><!--speakers-->
+              </div><!--item-->
+            </div><!--columns-->
+        </div><!--row-->
+    </div><!--speakers-->
+
+
+  </section>
+
   <section id="buy" data-magellan-target="buy" class="bg--red-5">
 
     <div class="l-papers -cta">
@@ -46,6 +82,7 @@ layout: thingmonk
       <h3>Sponsorship Details</h3>
       <p class="desc">Interested in sponsoring ThingMonk? Read the details on our sponsor pack. </p>
       <p><a href="/sponsor-pack.html"><button type="button" class="btn btn-success btn-sm">Sponsor Us</button></a></p>
+      <p><a href="/eclipse-sponsor-pack.html"><button type="button" class="btn btn-success btn-sm">Sponsor Eclipse Day</button></a></p>
       </div>
     </div>
     <div class="small-12 medium-6 columns text-center">
