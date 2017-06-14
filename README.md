@@ -23,7 +23,7 @@ update your content
 
 and then commit the file as normal and push.
 
-# Adding a new speaker for thingmonk or eclipse day
+# Adding a new speaker for thingmonk or Eclipse IoT Day
 
 For ThingMonk add an entry to `_data/speakers.yml`, for Eclipse add an entry to `_data/speakers.yml`
 
