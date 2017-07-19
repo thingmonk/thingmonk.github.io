@@ -25,7 +25,7 @@ and then commit the file as normal and push.
 
 # Adding a new speaker for thingmonk or Eclipse IoT Day
 
-For ThingMonk add an entry to `_data/speakers.yml`, for Eclipse add an entry to `_data/speakers.yml`
+For ThingMonk add an entry to `_data/speakers.yml`, for Eclipse add an entry to `_data/eclipse_speakers.yml`
 
 Each entry consists of the following
 <pre>
@@ -37,6 +37,6 @@ Each entry consists of the following
   twitter:
 </pre>
 
-Just use the entires that were done before as your guide. Once commited they will show up automatically in the main page and on the specific talks pages.
+Just use the entries that were done before as your guide. Once commited they will show up automatically in the main page and on the specific talks pages.
 
  

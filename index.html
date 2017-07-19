@@ -67,6 +67,23 @@ layout: thingmonk
                 {% endfor %}
                 </div><!--speakers-->
               </div><!--item-->
+
+                <h2>Eclipse IoT Day Speakers</h2>
+                <div class="c-speakers c-speakers__grid">
+                {% for speaker in site.data.eclipse_speakers %}
+                <div class="c-speaker__item">
+                  <a href="eclipse-day-talks.html#{{ speaker.twitter }}">
+                    <img class="c-speaker__avatar" src="/imgs/{{speaker.photo}}" width="150" height="150" alt="{{ speaker.name }}"></a>
+                    <h4 class="c-speaker__name">{{ speaker.name }}</h4>
+                 </a>
+                 <!-- <h5 class="c-speaker__talk"><a href="thingmonk-talks.html#{{ speaker.twitter }}">Talk</a></h5> -->
+                </div>
+                {% endfor %}
+                </div><!--speakers-->
+              </div><!--item-->
+
+
+
             </div><!--columns-->
         </div><!--row-->
     </div><!--speakers-->

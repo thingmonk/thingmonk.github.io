@@ -1,53 +1,26 @@
-- name: Benjamin Cabé
-  photo: benjaminc.jpg
-  bio: Benjamin Cabé, Internet of Things enthusiast and evangelist at the Eclipse Foundation, has years of experience in connecting things, big and small, together. <p>He is advocating the use of open source technologies to build Internet of Things solutions, which led him to cofound the Eclipse IoT Working Group in 2011. This working group has become a thriving community of 25+ open source projects, hundreds of developers, and thousands of users.
-  talktitle: "Open Source Internet of Things: an overview of Eclipse IoT"
-  talkabstract: IoT is the new black, and you sure want to be trendy and cool, and claim that you're doing IoT too! Open source initiatives like Eclipse IoT have your back covered by providing you with the building blocks needed for enabling IoT solutions. <p>We would like to welcome you to the Eclipse IoT Day by giving you an introduction to the key challenges of IoT and an overview of the approach undertaken by Eclipse IoT to develop an ecosystem of open-source technologies that will help you connect and manage your current and future IoT devices.
-  twitter: kartben
-  video: https://www.youtube.com/watch?v=HoxK5Kk6ClI
+- name: Julien Vermillard
+  photo: julienv.jpg
+  bio: "Julien is System Architect at Sierra Wireless, focusing on the device to cloud offers.<br/>He's also a long time opensourcer: Member of the Apache Software Foundation and Eclipse IoT committer on Californium and Wakaama and project lead for Eclipse Leshan."
+  talktitle: xxx
+  talkabstract: xxx
+  twitter: vrmvrm
+#  video: 
 #  slides:
 
-- name: Kamil Baczkowicz
-  photo: kamilb.jpg
-  bio: Kamil is a Technical Architect at DeltaRail. He’s been working with MQTT and other messaging technologies since 2009 as part of the IECC Scalable development programme – the leading railway signalling control system in the UK. Author of @mqtt_spy.
-  talktitle: Running UK railway with Eclipse Paho & Mosquitto
-  talkabstract: A success story of using MQTT and Eclipse IoT components in DeltaRail's state-of-the-art signalling control system. Overview of the architecture, lessons learnt and best practises in using MQTT for highly reliable, high-throughput, low-latency messaging in a safety-related environment.
-  twitter: kamilfb84
-  video: https://www.youtube.com/watch?v=OTbpUbTO5_I
-  slides: http://www.slideshare.net/kartben/running-uk-railway-with-eclipse-paho-and-eclipse-mosquitto-eclipse-iot-day-thingmonk-2016
+- name: Ian Craggs
+  photo: ianc.jpg
+  bio: Ian has been a project lead of Eclipse Paho for several years, and is the author of several of the MQTT components within it.<br/>He works for IBM on the Watson IoT platform, prior to that on various MQTT projects over the period more than a decade.  He is a member of the OASIS technical committee working on the definition of MQTT 5.0.
+  talktitle: xxx
+  talkabstract: xx
+  twitter: icraggs
+#  video: 
+#  slides:
 
-- name: Kai Hudalla
-  photo: kaih.jpg
-  bio: Kai Hudalla has been working at Bosch on solutions for the Internet of Things in application domains like smart home, energy management, e-mobility, and automotive long before the term reached its recent popularity and ubiquity. <br>He is an active committer on several Eclipse IoT projects and has just recently started the Hono project together with other members from the community, aiming at providing an integration platform for connecting millions of devices to the cloud. <p>Kai holds a degree in mathematics from University of Hannover in Germany and enjoys playing a round of golf whenever weather conditions permit."
-  talktitle: Towards an Open IoT Stack for the Cloud
-  talkabstract: Throughout the last years the open source community has produced a lot of valuable technology for implementing IoT applications. However, most of this technology still requires a lot of low-level knowledge in order to make proper use of it. Now the time has come to take this technology to the next level. <p>Let me tell you about the latest efforts within the IoT Working Group at Eclipse to create an open source based stack of components for implementing IoT solutions at cloud scale.
-  twitter: BoschSI
-  video: https://www.youtube.com/watch?v=086-TmygL2o
-  slides: https://www.slideshare.net/kartben/towards-an-open-iot-stack-for-the-cloud-thingmonk-2016
-
-- name: Patrizia Gufler
-  photo: patriziag.jpg
-  bio: Patrizia Gufler has been fascinated about the Internet of Things for years, and joined IBM in 2015 to work on everything IoT, from helping customers transition to an IoT mindset, to helping build Watson IoT and creating all sort of cool demos for tradeshows. On her free time, she enjoys hiking, biking, skiing, and anything that involves going out in the mountains.
-  talktitle: Connecting Eclipse Kura to IBM Watson
-  talkabstract: Eclipse Kura is a modular and extensible platform for building IoT gateways. In this talk you will learn more about the main features of Kura, and how easy it is to extend it with support for new IoT cloud platforms like IBM Watson IoT.
-  twitter: pattygufler
- # video: https://www.youtube.com/watch?v=q120humQBsk
- # slides: 
-
-- name: Boris Adryan
-  photo: borisa.jpg
-  bio: Boris Adryan ("Boris", or "Dr. Adryan") has a long-standing interest in big data analytics and machine learning. From 2008 to 2015 he lead a method development group at the University of Cambridge. Since 2013 he has been a consultant and hired hand for mostly London based IoT companies. In 2016 Boris did his personal Brexit and joined Zühlke Engineering in Frankfurt to support their IoT and data analytics activities.
-  talktitle: IoT, Info Models and Ontologies
-  talkabstract: How do devices in the Internet of Things communicate their abilities? Independent of any representation of a device in a programming language or an IoT platform, a good information model can capture features and properties of a physical device, which can be translated into unambiguous code or domain-specific languages. The Eclipse Vorto project offers a set of tools and a platform that can be used to develop and share information models and code generators. Information models can further be augmented with ontological information, i.e. how devices relate to each other (think ‘thermostat’ and ‘boiler’). This talk is going to provide a high-level overview of Vorto and why the Eclipse SmartHome project has recently started to engage with ontologies.
-  twitter: BorisAdryan
-  video: https://www.youtube.com/watch?v=PFR_0HWEz1E
-  slides: http://www.slideshare.net/BorisAdryan/eclipse-iot-day-0-of-thingmonk-2016
-
-- name: Dan Gross
-  photo: dang.jpg
-  bio: Dan leads Ecosystem Developer Support for Samsung’s new IoT platform, ARTIK. He has been a professional software developer for over 20 years, most of the time spent in Silicon Valley. His passions are the pursuit of frictionless developer tools and solving real business issues. Prior to joining Samsung, he has helped companies such as- Sun Microsystems, Oracle, HP, and TRX Training. Dan lives in San Francisco
+- name: Michael Hirsch
+  photo: michaelh.jpg
+  bio: Michael Hirsch is with Bosch as software developer and architect in the Java, cloud and IoT areas since 2010. Currently he is working on the Bosch IoT Rollouts cloud service as lead developer and architect and committer of the Eclipse hawkBit project.<br/>Developing and solving real world problems are Michael's passion, especially in the IoT context.<br/>Michael is holding a bachelor degree of computer science from the University of Albstadt-Sigmaringen.
   talktitle: The right tools for IoT developers 
   talkabstract: Samsung has introduced the Samsung ARTIK IDE for IoT Developers. This new set of tools is based on Eclipse Che and is designed to make it easy to build, deploy and manage IoT applications. This presentation will demonstrate why creating the right tools for IoT developers make it quicker and easier for IoT application development. 
-  twitter: dangross 
-  video: https://www.youtube.com/watch?v=P8Hk5Ir8fXo
-  slides: http://www.slideshare.net/kartben/the-right-tools-for-iot-developers-thingmonk-2016
+  twitter: hirschmicha 
+#  video: 
+#  slides:
