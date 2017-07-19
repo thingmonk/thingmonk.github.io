@@ -1,8 +1,10 @@
 - name: Julien Vermillard
   photo: julienv.jpg
   bio: "Julien is System Architect at Sierra Wireless, focusing on the device to cloud offers.<br/>He's also a long time opensourcer: Member of the Apache Software Foundation and Eclipse IoT committer on Californium and Wakaama and project lead for Eclipse Leshan."
-  talktitle: xxx
-  talkabstract: xxx
+  talktitle: What the M2M grandpas can teach the IoT kids
+  talkabstract: | 
+    Sierra Wireless is connecting millions of objects since the nineties when it was still called M2M, and is now joining the IoT bandwagon.
+    Let’s explore what is needed to deploy, develop and operate an IoT solution at scale.
   twitter: vrmvrm
 #  video: 
 #  slides:
@@ -10,8 +12,8 @@
 - name: Ian Craggs
   photo: ianc.jpg
   bio: Ian has been a project lead of Eclipse Paho for several years, and is the author of several of the MQTT components within it.<br/>He works for IBM on the Watson IoT platform, prior to that on various MQTT projects over the period more than a decade.  He is a member of the OASIS technical committee working on the definition of MQTT 5.0.
-  talktitle: xxx
-  talkabstract: xx
+  talktitle: Get ready, MQTT 5 is coming!
+  talkabstract: Abstract will be posted shortly.
   twitter: icraggs
 #  video: 
 #  slides:
@@ -19,8 +21,10 @@
 - name: Michael Hirsch
   photo: michaelh.jpg
   bio: Michael Hirsch is with Bosch as software developer and architect in the Java, cloud and IoT areas since 2010. Currently he is working on the Bosch IoT Rollouts cloud service as lead developer and architect and committer of the Eclipse hawkBit project.<br/>Developing and solving real world problems are Michael's passion, especially in the IoT context.<br/>Michael is holding a bachelor degree of computer science from the University of Albstadt-Sigmaringen.
-  talktitle: The right tools for IoT developers 
-  talkabstract: Samsung has introduced the Samsung ARTIK IDE for IoT Developers. This new set of tools is based on Eclipse Che and is designed to make it easy to build, deploy and manage IoT applications. This presentation will demonstrate why creating the right tools for IoT developers make it quicker and easier for IoT application development. 
+  talktitle: "Eclipse hawkBit: Software Updates For The IoT"
+  talkabstract: |
+    Software updates are becoming a key requirement in the IoT context and especially with the growth of IoT devices connecting to the internet every day. Security Patches are one of the important and crucial things nowadays but also the ability to deploy new features, to be able to develop iterative and agile, a software update mechnism will solve the problem.<br/>
+    This talk will provide a general introduction to the concept of software update in the IoT context, and will cover how the Eclipse hawkBit project allows to perform software update at scale, independently of a specific industry domain.
   twitter: hirschmicha 
 #  video: 
 #  slides:

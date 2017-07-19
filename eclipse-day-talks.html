@@ -28,10 +28,10 @@ layout: thingmonk
     <div class="small-12 medium-8 columns">
           <div class="c-talk">
             <a name="{{ speaker.twitter }}" /></a>
-<!--             <h2 class="c-talk__title">{{ speaker.talktitle }}</h2>
+            <h2 class="c-talk__title">{{ speaker.talktitle }}</h2>
             <div class="c-talk__abstract">
-              <p>{{ speaker.talkabstract }}</p>
-            </div> -->
+              <p>{{ speaker.talkabstract | markdownify }}</p>
+            </div>
             {% if speaker.video or speaker.slides %}
             <p>Presentation: 
                 {% if speaker.video %}<a href="{{ speaker.video }}" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>{% endif %}
