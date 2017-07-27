@@ -60,3 +60,52 @@
   talktitle:
   talkabstract:
   twitter: thinkovation
+
+- name: Sarah Cooper 
+  photo: smc.jpg
+  bio: Dr. Sarah Cooper is AWS’s GM of IoT Analytics and Solutions. With 15yrs experience building IoT devices and platforms, Sarah serves as vice chairwoman of the Internet of Things Community, a 20,000 member organization dedicated to education and information sharing amongst the IoT practitioner community. Formerly, M2Mi’s Chief Operating Officer, responsible for engineering, business development and platform strategy, Sarah was named an IS 50 Most Empowering Women in Business, recognized Top 100 Wireless Technology Expert by Wireless World, a National Academy of Engineers Frontiers of Engineering Awardee, multidisciplinary entrepreneur, inventor of an IoT medical battery that runs on body temperature and a PhD in Physics from University of Sydney. Prior to M2Mi, Sarah founded and sold TE-Bio, an IoT device company, NaturalNano, a publically traded advanced nanomaterials company and conducted fundamental research at NASA and DoE
+  talktitle:
+  talkabstract:
+  twitter: SMC_on_IOT
+
+- name: Andy Stanford Clark 
+  photo: andysc.jpg
+  bio: IBM CTO - UK and Ireland. Distinguished Engineer, Master Inventor. Innovation and invention. IoT, MQTT. Runner
+  talktitle:
+  talkabstract:
+  twitter: andysc
+
+- name: Tracy Miranda 
+  photo: tracym.jpg 
+  bio: Tracy Miranda is founder & CEO of Kichwa Coders, a consultancy specialising in embedded tools & IDEs. She sits on the Eclipse Foundation Board of Directors and is the Chair of the Science Working Group. Tracy has a background in electronics systems design and has US patents granted for her work on processor architectures. She writes for opensource.com and jaxenter.com on tech, open source & diversity. 
+  talktitle:
+  talkabstract:
+  twitter: tracymiranda
+
+- name: Juan Perez
+  photo: juanp.png
+  bio: Juan Perez is Principal Program Manager responsible for IoT device management in the Azure IoT group at Microsoft.  Juan started his professional software engineering career at Microsoft in 1997, working on web tools, later moving to the operating systems group, and finally working in the hardware innovation group before founding two startups in the areas of agile software engineering tools and cloud-based business collaboration applications.  Juan is inventor on eight patents, co-author of ‘Software Engineering with Visual Studio Team System’, published in 2006 by Addison Wesley, a frequent speaker at conferences, and holds a degree in Computer Science from the University of Florida.  
+  talktitle:
+  talkabstract:
+  twitter: juanage
+
+- name: Boris Adryan 
+  photo: borisa.jpg
+  bio: Boris Adryan ("Boris", or "Dr. Adryan") has a long-standing interest in big data analytics and machine learning. From 2008 to 2015 he lead a method development group at the University of Cambridge. Since 2013 he has been a consultant and hired hand for mostly London based IoT companies. In 2016 Boris did his personal Brexit and moved Frankfurt where he continues to work on IoT and data analytics activities.
+  talktitle:
+  talkabstract:
+  twitter: BorisAdryan
+
+- name: Charlie Isaacs
+  photo: charlieissacs.jpg
+  bio: Charlie Isaacs has a track record of R&D leadership at companies like Verizon, Answer Systems (acquired by Computer Associates), Broad Daylight (sold to Primus Knowledge, then ATG and then Oracle), and CTO Kana(Verint). After Kana he joined Alcatel-Lucent/Genesys as VP of Innovation. Charlie is VP/CTO for Customer Connection and claims to have “the best job at Salesforce” as he incubates customers worldwide onto the Salesforce IoT platform.  Charlie holds a BSEE from the UC Santa Barbara and an MBA from California Lutheran University. He holds several patents related to CRM and the Internet of Things. He volunteers at organizations helping women and minorities enter STEM fields. 
+  talktitle:
+  talkabstract:
+  twitter: charlieisaacs
+
+- name: Martin Gale
+  photo: marting.jpg
+  bio: Martin is a Program Architect with Salesforce where he helps customers set themselves up for success with the Salesforce platform. He has a long held special interest in the Internet of Things having previously worked on the development of MQTT during his time at IBM, and is excited about about how the Internet of Things is changing the experiences of customers and the people that support them. Martin's interests and world view stem from a twenty plus year career focused on advanced technology and user experience, having played leading roles in topics such as e-commerce, mobility and big data in the past.
+  talktitle:
+  talkabstract:
+  twitter: 
