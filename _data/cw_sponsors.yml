@@ -1,7 +1,7 @@
+- name: Microsoft Azure
+  url: microsoft.com
+  image: azure.jpg
+
 - name: IBM
   url: ibm.com
   image: ibm-logo.jpg
-
-- name: Splunk
-  url: splunk.com
-  image: splunk.jpg
