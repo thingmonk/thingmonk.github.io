@@ -1,0 +1,3 @@
+- name: Red Hat
+  url: redhat.com
+  image: redhat.png

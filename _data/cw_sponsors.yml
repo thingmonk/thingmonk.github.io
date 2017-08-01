@@ -1,6 +1,6 @@
 - name: Microsoft Azure
-  url: microsoft.com
-  image: azure.jpg
+  url: azure.microsoft.com
+  image: ms-azure.png
 
 - name: IBM
   url: ibm.com

@@ -114,6 +114,60 @@ layout: thingmonk
   </div><!--papers-->
 
   </section>
+  <section id="sponsors" data-magellan-target="agenda" class="">
+    <div class="l-sponsors row -cta">
+    <div class="item">
+      <h2>Sponsors</h2>
+      <div class="l-sponsors__sponsor">
+      <!-- <h4>Unobtainium</h4>
+      {% for sponsor in site.data.u_sponsors %}
+      <div class="l-sponsors__logo l-sponsors__logo-big"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+      {% endfor %} -->
+      <!--
+      <h4>Neodymium</h4> 
+      
+      <h4>Lithium Ion</h4> -->
+      <h4>Coding WorkShop</h4>
+      {% for sponsor in site.data.cw_sponsors %}
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+      {% endfor %}
+      
+      <h4>Graphene</h4>
+      {% for sponsor in site.data.g_sponsors %}
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+      {% endfor %}
+      
+      <h4>Lithium Ion</h4>
+      {% for sponsor in site.data.l_sponsors %}
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+      {% endfor %}
+      
+      <!-- <h4>Evening Party Sponsor</h4> -->
+     
+      <!-- <h4>Lunch Sponsor</h4>
+      <h4>Awesome Coffee</h4>
+      <h4>Round of Drinks</h4>
+      <h4>Breakfast</h4>
+      <h4>Conference Snacks</h4> -->
+      <!-- <div class="l-sponsors__sponsor">
+      <h4>Diversity Sponsorship</h4>
+      {% for sponsor in site.data.diversity_sponsors %}
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      <p>
+      {% endfor %}
+      </div>
+    -->
+      <hr />
+  
+      <div class="l-sponsors__sponsor">
+      <h4>Eclipse IoT Day Sponsors</h4>
+      {% for sponsor in site.data.eclipse_sponsors %}
+      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+      {% endfor %}
+      </div>
+    </div>
+    </div>
+  </section>
 
   <section id="coc" data-magellan-target="coc"  class="bg--red-6">
     <div class="-cta row">
