@@ -25,3 +25,5 @@ It is important to make these Digital Twins accessible in a convenient way, inde
 At the core of this move to Digital Twin are the technologists making it happen. At this year’s ThingMonk we will hear from people touching every strand of what makes Digital Twin a reality. From Open Source foundations and projects such as The Eclipse Foundation, The Things Network and Cloud Foundry, to speakers working on IoT and Digital Twin every day to at large companies such as Confluent, IBM, Microsoft, AWS, Salesforce, to cutting edge startups such as OpenSensors.
 <p>
 ThingMonk is on September 11<sup>th</sup> to 13<sup>th</sup> this year in Shoreditch, London. Tickets are still <a href="https://www.eventbrite.co.uk/e/thingmonk-2017-tickets-31876851521">on sale</a>.
+<p>
+This post originally appeared on <a href="https://redmonk.com/fryan/2017/07/28/the-era-of-the-digital-twin/">RedMonk</a>.
