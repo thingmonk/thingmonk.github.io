@@ -1,14 +1,3 @@
-- name: Julien Vermillard
-  photo: julienv.jpg
-  bio: "Julien is System Architect at Sierra Wireless, focusing on the device to cloud offers.<br/>He's also a long time opensourcer: Member of the Apache Software Foundation and Eclipse IoT committer on Californium and Wakaama and project lead for Eclipse Leshan."
-  talktitle: What the M2M grandpas can teach the IoT kids
-  talkabstract: | 
-    Sierra Wireless is connecting millions of objects since the nineties when it was still called M2M, and is now joining the IoT bandwagon.
-    Let’s explore what is needed to deploy, develop and operate an IoT solution at scale.
-  twitter: vrmvrm
-#  video: 
-#  slides:
-
 - name: Ian Craggs
   photo: ianc.jpg
   bio: Ian has been a project lead of Eclipse Paho for several years, and is the author of several of the MQTT components within it.<br/>He works for IBM on the Watson IoT platform, prior to that on various MQTT projects over the period more than a decade.  He is a member of the OASIS technical committee working on the definition of MQTT 5.0.
@@ -18,6 +7,18 @@
 #  video: 
 #  slides:
 
+- name: Tobiasz Dworak
+  photo: tobiaszd.jpg
+  bio: :
+    Tobiasz Dworak is a Senior Solutions Architect in GlobalLogic specialized in embedded systems, industrial connectivity and IoT systems. He is a hands-on software architect with experience in industrial embedded, automotive and telecommunications software for over 14 years. He holds Master's degree in Electronics and Telecommunications from Wrocław University of Technology, Poland
+    Privately he is a father of two sons and enjoy constructing simple robots in spare time. 
+  talktitle: "Case study: Implementing an industrial water management system with Eclipse IoT"
+  talkabstract: Abstract will be posted shortly.
+  twitter: tobidi
+#  video: 
+#  slides:
+
+
 - name: Michael Hirsch
   photo: michaelh.jpg
   bio: Michael Hirsch is with Bosch as software developer and architect in the Java, cloud and IoT areas since 2010. Currently he is working on the Bosch IoT Rollouts cloud service as lead developer and architect and committer of the Eclipse hawkBit project.<br/>Developing and solving real world problems are Michael's passion, especially in the IoT context.<br/>Michael is holding a bachelor degree of computer science from the University of Albstadt-Sigmaringen.
@@ -26,5 +27,45 @@
     Software updates are becoming a key requirement in the IoT context and especially with the growth of IoT devices connecting to the internet every day. Security Patches are one of the important and crucial things nowadays but also the ability to deploy new features, to be able to develop iterative and agile, a software update mechnism will solve the problem.<br/>
     This talk will provide a general introduction to the concept of software update in the IoT context, and will cover how the Eclipse hawkBit project allows to perform software update at scale, independently of a specific industry domain.
   twitter: hirschmicha 
+#  video: 
+#  slides:
+
+- name: Sébastien Lambour
+  photo: sebastienl.jpg
+  bio: |
+    Sébastien is a JVM developer and an enthusiast of cryptography, web security, authentication systems, and backends architecture. He is the creator of the InTheMoodForLife App and the winner of the third annual Open IoT Challenge. 
+    He currently works at Cityzen Data, a start-up currently building Warp10: an open source platform designed to collect, store, and manipulate sensor data.
+  talktitle: "InTheMoodForLife: Analyzing Sleep to Better Manage Mood Disorders"
+  talkabstract: |
+    InTheMoodForLife is an application to analyse and monitor sleep patterns of people affected by bipolar disorder. 
+
+    The setup of the application was done during the Eclipse Open IoT Challenge and also win the first award of the 2017 edition.
+    The solution is built using an off-the-shelf sleep monitor, Raspberry Pi, Eclipse Vert.x, and Warp 10. Vert.x interacts with the sensor producing 140 measurements per second in an "elegant" asynchronous way and stores  sensor's data into a time series database, Warp10.
+
+    But IoT is not only about object interaction, monitoring or also command and control. Value is created with data analytics, this is the first aim of InTheMoodForLife. We used Warpscript, a time series analytics language for decompose the sleep architecture, detect sleep anomalies day after day in order to react, and adapt the treatment faster. This is just the beginning, because smart sensor and data analytics open up a very brand range of possibilities.
+  twitter: finistseb 
+#  video: 
+#  slides:
+
+- name: Ian Skerrett
+  photo: ians.jpg
+  bio: "Ian is the vice president of marketing at the Eclipse Foundation. He also helps lead the Eclipse IoT Working Group and founded it's predecessor, Eclipse M2M, in 2012."
+  talktitle: What Eclipse IoT can provide for Industry 4.0 and Smart Manufacturing
+  talkabstract: | 
+    Manufacturing and Industrial Automation are key industries that are benefiting from new IoT technology. Smart Manufacturing and Industry 4.0 are key initiative that are modernizing factory floors and supply chains. 
+    This presentation will discuss the open source technology being developed within the Eclipse IoT community that is being used by companies implementing solutions for these industries.
+  twitter: ianskerrett
+#  video: 
+#  slides:
+
+
+- name: Julien Vermillard
+  photo: julienv.jpg
+  bio: "Julien is System Architect at Sierra Wireless, focusing on the device to cloud offers.<br/>He's also a long time opensourcer: Member of the Apache Software Foundation and Eclipse IoT committer on Californium and Wakaama and project lead for Eclipse Leshan."
+  talktitle: What the M2M grandpas can teach the IoT kids
+  talkabstract: | 
+    Sierra Wireless is connecting millions of objects since the nineties when it was still called M2M, and is now joining the IoT bandwagon.
+    Let’s explore what is needed to deploy, develop and operate an IoT solution at scale.
+  twitter: vrmvrm
 #  video: 
 #  slides:
