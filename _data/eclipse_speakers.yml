@@ -13,7 +13,9 @@
     Tobiasz Dworak is a Senior Solutions Architect in GlobalLogic specialized in embedded systems, industrial connectivity and IoT systems. He is a hands-on software architect with experience in industrial embedded, automotive and telecommunications software for over 14 years. He holds Master's degree in Electronics and Telecommunications from Wrocław University of Technology, Poland
     Privately he is a father of two sons and enjoy constructing simple robots in spare time. 
   talktitle: "Case study: Implementing an industrial water management system with Eclipse IoT"
-  talkabstract: Abstract will be posted shortly.
+  talkabstract: |
+    Gateways play crucial role in Industrial Internet of Things systems, providing a solution for exposing industrial sensors and devices to the "common" IT systems.
+    This talk will show the realization of an end to end monitoring scenario of process instrumentation equipment using Eclipse IoT stack, with a focus on the Eclipse Kura IoT gateway framework. 
   twitter: tobidi
 #  video: 
 #  slides:
