@@ -15,7 +15,8 @@
   talktitle: "Case study: Implementing an industrial water management system with Eclipse IoT"
   talkabstract: |
     Gateways play crucial role in Industrial Internet of Things systems, providing a solution for exposing industrial sensors and devices to the "common" IT systems.
-    This talk will show the realization of an end to end monitoring scenario of process instrumentation equipment using Eclipse IoT stack, with a focus on the Eclipse Kura IoT gateway framework. 
+
+    This talk will show the realization of an end to end monitoring scenario of process instrumentation equipment using Eclipse IoT stack, with a focus on the Eclipse Kura IoT gateway framework.<br/> 
   twitter: tobidi
 #  video: 
 #  slides:
@@ -26,7 +27,8 @@
   bio: Michael Hirsch is with Bosch as software developer and architect in the Java, cloud and IoT areas since 2010. Currently he is working on the Bosch IoT Rollouts cloud service as lead developer and architect and committer of the Eclipse hawkBit project.<br/>Developing and solving real world problems are Michael's passion, especially in the IoT context.<br/>Michael is holding a bachelor degree of computer science from the University of Albstadt-Sigmaringen.
   talktitle: "Eclipse hawkBit: Software Updates For The IoT"
   talkabstract: |
-    Software updates are becoming a key requirement in the IoT context and especially with the growth of IoT devices connecting to the internet every day. Security Patches are one of the important and crucial things nowadays but also the ability to deploy new features, to be able to develop iterative and agile, a software update mechnism will solve the problem.<br/>
+    Software updates are becoming a key requirement in the IoT context and especially with the growth of IoT devices connecting to the internet every day. Security Patches are one of the important and crucial things nowadays but also the ability to deploy new features, to be able to develop iterative and agile, a software update mechnism will solve the problem.
+
     This talk will provide a general introduction to the concept of software update in the IoT context, and will cover how the Eclipse hawkBit project allows to perform software update at scale, independently of a specific industry domain.
   twitter: hirschmicha 
 #  video: 
@@ -55,6 +57,7 @@
   talktitle: What Eclipse IoT can provide for Industry 4.0 and Smart Manufacturing
   talkabstract: | 
     Manufacturing and Industrial Automation are key industries that are benefiting from new IoT technology. Smart Manufacturing and Industry 4.0 are key initiative that are modernizing factory floors and supply chains. 
+
     This presentation will discuss the open source technology being developed within the Eclipse IoT community that is being used by companies implementing solutions for these industries.
   twitter: ianskerrett
 #  video: 
