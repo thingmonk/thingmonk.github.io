@@ -1,0 +1,7 @@
+- name: Resin
+  url: resin.io
+  image: resin.png
+
+- name: YLD
+  url: yld.io
+  image: YLDlogo.png
