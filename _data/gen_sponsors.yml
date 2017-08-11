@@ -5,3 +5,7 @@
 - name: YLD
   url: yld.io
   image: YLDlogo.png
+
+- name: OpenSensors
+  url: opensensors.io
+  image: opensensors.png
