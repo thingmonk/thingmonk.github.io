@@ -1,22 +1,22 @@
 - name: Abby Kearns
   photo: abbyk.jpg
   bio: Abby is a true tech veteran, with an 18 year career spanning product marketing, product management and consulting at a mix of Fortune 500 and startup companies. As the first fellow at Cloud Foundry Foundation and VP of Strategy, Abby was responsible for structuring and executing operational and strategic initiatives, as well as leading the User Advisory Board and Industry Special Interest Groups. Prior to joining the Foundation, she was part of the Product Management team at Pivotal, focusing on Pivotal Cloud Foundry. Previously, Abby led a Product Management and Product Marketing team at Verizon focused on cloud services. In her free time, Abby enjoys posting up at her local coffee shop, indulging in food and wine, and spending time with her husband and son. 
-  talktitle: 
-  talkabstract: 
+  talktitle: Makers of Marvels
+  talkabstract: History teaches us that astonishing feats occur not when a singular leader envisions them, but when a mass of skilled workers collaborate to transform that vision into something material. The Transcontinental Railroad, for example, was not built overnight, but constructed by tens of thousands of workers over a period of years. The outcome indelibly changed transcontinental transportation and logistics. The iPhone has transformed the world as we know it -- but most of its power comes from the app store, which offers thousands of apps created from the imaginations of developers employing their expertise in UX, machine learning, IoT and much more. These developers are the makers of marvels in our time. They instantiate the very concept of digital transformation -- that notion of infrastructure disruption and re-assembly on the mind of every CIO. This enterprise software is no longer just driving computer infrastructure. Today it drives real infrastructure from wind turbines to automobiles and everything in between. Digital transformation is at the heart of IoT. Cloud Foundry is at the heart of digital transformation.  
   twitters: ab415 
   
 - name: Johan Stokking
   photo: johans.jpg
   bio: Johan Stokking is tech lead and co-founder of The Things Network. Together with a strong community, he is on a mission to build an open, crowd sourced and decentralized internet of things data network. The city of Amsterdam was covered in six weeks. Global coverage is next. <p> Johan started The Things Network in the summer of 2015 with Wienke Giezeman. With over a 100 communities worldwide, impact on thousands of people and a reach in the millions, they are committed to build the global network together with the community. 
-  talktitle: 
-  talkabstract: 
+  talktitle: Conquering Scaling Challenges in IoT
+  talkabstract: We all know Gartner's expectations - 20 billion connected devices by 2020. People are not going to charge tens of devices every day so we need low power communication. More and more devices are being deployed remote so we need wide area networking. With the emergence of LPWAN and the commoditization of connectivity, the industry needs to focus on new challenges&#58; life cycle optimization and environmental issues, firmware updates, transfer of ownership, spectrum regulation, security and privacy issues, and making IoT development and deployment as easy as WordPress. Learn how we aim to tackle all of this with The Things Network and its global community. 
   twitter: johanstokking
 
 - name: Dr. Lucy Rogers
   photo: lucyr.png
   bio: Lucy is a Maker, an engineer and a problem solver. She is adept at bringing others' ideas to life, be it animatronic dinosaurs at Blackgang Chine Theme Park, or miniature mannequins for marketing bespoke dresses. She specialises in taking new technologies into traditional industries and loves to combine ideas from different fields into one package. <p> She is also skilled at translating technology into Plain English. She is the author of “It’s ONLY Rocket Science" and the soon-to-be published “Wiring the Internet of Things”.<p> Lucy is one of the leading cheerleaders for the Maker Industry - she celebrates the joy of making and encourages and supports both individual Makers and the industry. This has lead to interesting opportunities such as becoming a judge on the BBC's Robot Wars television show. 
-  talktitle:
-  talkabstract: 
+  talktitle: Wiring the IoT
+  talkabstract: Fun projects to demonstrate the potential of using Raspberry Pi, Node-RED and MQTT for wiring the Internet of Things. Including Fartometer (as featured on IBM's home page), SMS child's bunny rabbit and, of course, #Cheerlights. 
   twitter: DrLucyRogers 
 
 - name: Kamil Baczkowicz 
@@ -43,8 +43,8 @@
 - name: Ben Stopford
   photo: bens.png
   bio: Ben is an engineer and architect at Confluent Inc (the company behind Apache Kafka) where he’s worked on a range of projects from implementing the latest version of the replication protocol through to developing strategies for streaming applications. Before Confluent Ben designed and built a central streaming database for a large investment bank. His earlier career spanned a variety of projects at Thoughtworks and UK-based enterprise companies. Find out more at http://benstopford.com.
-  talktitle:
-  talkabstract: 
+  talktitle: Building Streaming IoT platforms with Apache Kafka
+  talkabstract: When we think IoT, we tend to think of the leaf-node devices; sensors, microcontrollers etc. Whilst embedded devices provide the source of the IoT value chain, they are only the tip of the iceberg. The core value of many commercial IoT platforms sits below the waterline, in the data platforms that leverage the data these devices generate. <p>Multi-TB/s ingestion rates, even with small message payloads, make Apache Kafka one of the most common backbones for large IoT installations. In this talk will look at some of the key properties of Apache Kafka and its Stream Processing API, reflecting on why these features are important for processing IoT workloads. Finally we’ll touch on some real world examples in the transport and mobile domains.  
   twitter: benstopford 
 
 - name: Gary Barnett
@@ -57,8 +57,8 @@
 - name: Sarah Cooper 
   photo: smc.jpg
   bio: Dr. Sarah Cooper is AWS’s GM of IoT Analytics and Solutions. With 15yrs experience building IoT devices and platforms, Sarah serves as vice chairwoman of the Internet of Things Community, a 20,000 member organization dedicated to education and information sharing amongst the IoT practitioner community. Formerly, M2Mi’s Chief Operating Officer, responsible for engineering, business development and platform strategy, Sarah was named an IS 50 Most Empowering Women in Business, recognized Top 100 Wireless Technology Expert by Wireless World, a National Academy of Engineers Frontiers of Engineering Awardee, multidisciplinary entrepreneur, inventor of an IoT medical battery that runs on body temperature and a PhD in Physics from University of Sydney. Prior to M2Mi, Sarah founded and sold TE-Bio, an IoT device company, NaturalNano, a publically traded advanced nanomaterials company and conducted fundamental research at NASA and DoE
-  talktitle:
-  talkabstract:
+  talktitle: Reducing Dimensionality in IoT Data and Analytics 
+  talkabstract: Reducing Dimensionality in IoT Data and Analytics 
   twitter: SMC_on_IOT
 
 - name: Andy Stanford Clark 
@@ -71,22 +71,22 @@
 - name: Tracy Miranda 
   photo: tracym.jpg 
   bio: Tracy Miranda is founder & CEO of Kichwa Coders, a consultancy specialising in embedded tools & IDEs. She sits on the Eclipse Foundation Board of Directors and is the Chair of the Science Working Group. Tracy has a background in electronics systems design and has US patents granted for her work on processor architectures. She writes for opensource.com and jaxenter.com on tech, open source & diversity. 
-  talktitle:
-  talkabstract:
+  talktitle: The Future of Developer Tools for IoT
+  talkabstract: How will developer tools evolve and scale for building the IoT? This talk looks at emerging and future trends in the developer tools space.  
   twitter: tracymiranda
 
 - name: Juan Perez
   photo: juanp.png
   bio: Juan Perez is Principal Program Manager responsible for IoT device management in the Azure IoT group at Microsoft.  Juan started his professional software engineering career at Microsoft in 1997, working on web tools, later moving to the operating systems group, and finally working in the hardware innovation group before founding two startups in the areas of agile software engineering tools and cloud-based business collaboration applications.  Juan is inventor on eight patents, co-author of ‘Software Engineering with Visual Studio Team System’, published in 2006 by Addison Wesley, a frequent speaker at conferences, and holds a degree in Computer Science from the University of Florida.  
-  talktitle:
-  talkabstract:
+  talktitle: Digital Twins&#58; From zero to cloud scale
+  talkabstract: Digital Twins are the new rage in IoT and business potential! Not really, they’ve actually been around for a long time and we’ve been doing business for millennia.  What has changed is the scale and complexity that we operate/reason over.  Numerous definitions and perspectives of digital twin make it very confusing to get started and understand why they could change the way we live and conduct business.  Let’s chat about where they came from, why they exist, how they apply to different parts of the business, how to get started, and how to scale.
   twitter: juanage
 
 - name: Boris Adryan 
   photo: borisa.jpg
   bio: Boris Adryan ("Boris", or "Dr. Adryan") has a long-standing interest in big data analytics and machine learning. From 2008 to 2015 he lead a method development group at the University of Cambridge. Since 2013 he has been a consultant and hired hand for mostly London based IoT companies. In 2016 Boris did his personal Brexit and moved Frankfurt where he continues to work on IoT and data analytics activities.
-  talktitle:
-  talkabstract:
+  talktitle: Development and deployment&#58; The human factor
+  talkabstract: Development and deployment&#58; The human factor
   twitter: BorisAdryan
 
 - name: Charlie Isaacs
