@@ -64,8 +64,8 @@
 - name: Andy Stanford Clark 
   photo: andysc.jpg
   bio: IBM CTO - UK and Ireland. Distinguished Engineer, Master Inventor. Innovation and invention. IoT, MQTT. Runner
-  talktitle:
-  talkabstract:
+  talktitle: Stemming the tide&#58; architecture considerations for filtering IoT Data
+  talkabstract: Stemming the tide&#58; architecture considerations for filtering IoT Data
   twitter: andysc
 
 - name: Tracy Miranda 
@@ -92,20 +92,20 @@
 - name: Charlie Isaacs
   photo: charlieissacs.jpg
   bio: Charlie Isaacs has a track record of R&D leadership at companies like Verizon, Answer Systems (acquired by Computer Associates), Broad Daylight (sold to Primus Knowledge, then ATG and then Oracle), and CTO Kana(Verint). After Kana he joined Alcatel-Lucent/Genesys as VP of Innovation. Charlie is VP/CTO for Customer Connection and claims to have “the best job at Salesforce” as he incubates customers worldwide onto the Salesforce IoT platform.  Charlie holds a BSEE from the UC Santa Barbara and an MBA from California Lutheran University. He holds several patents related to CRM and the Internet of Things. He volunteers at organizations helping women and minorities enter STEM fields. 
-  talktitle:
-  talkabstract:
+  talktitle: Stemming the tide&#58; architecture considerations for filtering IoT Data
+  talkabstract: Stemming the tide&#58; architecture considerations for filtering IoT Data
   twitter: charlieisaacs
 
 - name: Martin Gale
   photo: marting.jpg
   bio: Martin is a Program Architect with Salesforce where he helps customers set themselves up for success with the Salesforce platform. He has a long held special interest in the Internet of Things having previously worked on the development of MQTT during his time at IBM, and is excited about about how the Internet of Things is changing the experiences of customers and the people that support them. Martin's interests and world view stem from a twenty plus year career focused on advanced technology and user experience, having played leading roles in topics such as e-commerce, mobility and big data in the past.
-  talktitle:
-  talkabstract:
+  talktitle: Stemming the tide&#58; architecture considerations for filtering IoT Data
+  talkabstract: Stemming the tide&#58; architecture considerations for filtering IoT Data
   twitter:
 
 - name: Rob Carter
   photo: robc.png
   bio: CEO at Fieldmargin. Recovering Accountant.
-  talktitle:
-  talkabstract:
+  talktitle: Digital Twin &amp; Farming
+  talkabstract: Digital Twin &amp; Farming
   twitter: RACarter
