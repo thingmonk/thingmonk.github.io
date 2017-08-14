@@ -5,22 +5,74 @@ layout: thingmonk
 <div id="sections" class="sections">
   <section id="thingmonk" data-magellan-target="thingmonk" class="bg--red-1"></section>
   <section id="about" data-magellan-target="about" class="bg--red-1">
+    <div class="row">
 
-    <div class="l-about row">
+    <div class="l-about small-12 medium-8 columns">
     <a name="about"></a>
         <h1>Developing The Digital Twin</h1>
-        <div align="center"><h1>London, September 11th - 13th, 2017</h1></div>
+        <h2>London, September 11th - 13th, 2017</h2>
         <br />
         <p><b>Eclipse IoT Day : Protein, entry via Cream, 31 New Inn Yard, EC2A 3EY<br />
             ThingMonk Hack Day : Protein, entry via Cream, 31 New Inn Yard, EC2A 3EY<br />
             ThingMonk Main conference: Shoreditch Studios, 37 Batemans Row, EC2A 3HH</b></p>
         <p>ThingMonk is the developer conference for people making IoT platforms. Now in its fifth year, we bring together technologists and designers building core infrastructure for IoT for 2 days of awesome, unique talks on topics including bots, industrial automation/industry 4.0, machine learning, time series data, programming language choices and UX. These are talks by practitioners.</p>
-        <p>We’re not cheerleaders for thoughtless automation- we’ll have skeptical, thoughtful critical talks about creating a culture and making the right design decisions so that the IoT serves us, rather than us serving it. 
+        <p>We’re not cheerleaders for thoughtless automation- we’ll have skeptical, thoughtful critical talks about creating a culture and making the right design decisions so that the IoT serves us, rather than us serving it.
         </p>
-        <p>ThingMonk is about tech but it’s also a warm, supportive, welcoming and diverse community. This year we are delighted to be able to to expand on last years diversity scholarship. This years scholarship will open for applications in March.</p> 
+        <p>ThingMonk is about tech but it’s also a warm, supportive, welcoming and diverse community. This year we are delighted to be able to to expand on last years diversity scholarship. This years scholarship will open for applications in March.</p>
         <p>ThingMonk 2017 will be held at two venues in Shoreditch within 150 yards of each - the Eclipse IoT Day and ThingMonk Hack Day will be held at <a href="https://www.google.co.uk/maps/dir/%27%27/31+New+Inn+Yard,+London+EC2A+3EY/data=!4m5!4m4!1m0!1m2!1m1!1s0x48761cb096ccbad3:0x1e756378641e77fb?sa=X&ved=0ahUKEwjo95Kv84bOAhUDORoKHaxaAIsQiBMIESgBMAQ">Cream/Protein</a> and the main confererence, will be at Shoreditch Studioss</p>
         <p>ThingMonk 2017 cannot occur without the generous support of our friends in the IoT Community. If you would like to be a sponsor of the premier developer focused IoT event in London <a href="/sponsor-pack.html">click here</a>. </p>
     </div>
+
+    <div id="sponsors" class="l-sponsors-wrapper small-12 medium-4 columns">
+        <h2>Sponsors</h2>
+        <div class="l-sponsors">
+        <div class="l-sponsors__sponsor">
+        <h4>Coding WorkShop</h4>
+        {% for sponsor in site.data.cw_sponsors %}
+        <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+        {% endfor %}
+        </div>
+
+        <div class="l-sponsors__sponsor">
+        <h4>Graphene</h4>
+        {% for sponsor in site.data.g_sponsors %}
+        <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+        {% endfor %}
+        </div>
+
+        <div class="l-sponsors__sponsor">
+        <h4>Lithium Ion</h4>
+        {% for sponsor in site.data.l_sponsors %}
+        <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+        {% endfor %}
+        </div>
+
+        <div class="l-sponsors__sponsor">
+        <h4>Awesome Coffee</h4>
+        {% for sponsor in site.data.coffee_sponsors %}
+        <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+        {% endfor %}
+        </div>
+
+        <div class="l-sponsors__sponsor">
+        <h4>Friends of ThingMonk</h4>
+        {% for sponsor in site.data.gen_sponsors %}
+        <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+        {% endfor %}
+        </div>
+
+        <div class="l-sponsors__sponsor">
+        <h4>Eclipse IoT Day Sponsors</h4>
+        {% for sponsor in site.data.eclipse_sponsors %}
+          <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
+        {% endfor %}
+        </div>
+
+    </div><!--sponsors-->
+  </div><!--sponsors-wrapper-->
+  </div><!--row-->
+
+
   </section>
   <section id="news" data-magellan-target="news" class="bg--red-2">
 
@@ -114,72 +166,8 @@ layout: thingmonk
   </div><!--papers-->
 
   </section>
-  <section id="sponsors" data-magellan-target="agenda" class="">
-    <div class="l-sponsors row -cta">
-    <div class="item">
-      <h2>Sponsors</h2>
-      <div class="l-sponsors__sponsor">
-      <!-- <h4>Unobtainium</h4>
-      {% for sponsor in site.data.u_sponsors %}
-      <div class="l-sponsors__logo l-sponsors__logo-big"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
-      {% endfor %} -->
-      <!--
-      <h4>Neodymium</h4> 
-      
-      <h4>Lithium Ion</h4> -->
-      <h4>Coding WorkShop</h4>
-      {% for sponsor in site.data.cw_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
-      {% endfor %}
-      
-      <h4>Graphene</h4>
-      {% for sponsor in site.data.g_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
-      {% endfor %}
-      
-      <h4>Lithium Ion</h4>
-      {% for sponsor in site.data.l_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
-      {% endfor %}
-      
-      <h4>Awesome Coffee</h4>
-      {% for sponsor in site.data.coffee_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
-      {% endfor %}
 
-      <h4>Friends of ThingMonk</h4>
-      {% for sponsor in site.data.gen_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
-      <p>
-      {% endfor %}
 
-      <!-- <h4>Evening Party Sponsor</h4> -->
-     
-      <!-- <h4>Lunch Sponsor</h4>
-      <h4>Awesome Coffee</h4>
-      <h4>Round of Drinks</h4>
-      <h4>Breakfast</h4>
-      <h4>Conference Snacks</h4> -->
-      <!-- <div class="l-sponsors__sponsor">
-      <h4>Diversity Sponsorship</h4>
-      {% for sponsor in site.data.diversity_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
-      <p>
-      {% endfor %}
-      </div>
-    -->
-    
-      <hr />
-  
-      <div class="l-sponsors__sponsor">
-      <h4>Eclipse IoT Day Sponsors</h4>
-      {% for sponsor in site.data.eclipse_sponsors %}
-      <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div>
-      {% endfor %}
-      </div>
-    </div>
-    </div>
-  </section>
 <section id="agenda" data-magellan-target="agenda" class="bg--red-2">
 
     <div class="l-agenda row -cta">
@@ -190,7 +178,7 @@ layout: thingmonk
         <li class="c-sessions__single is-start">
           <time>Day 1</time>
           <div class="session-description">
-            <p>ThingMonk 2017 begins with a moring of talks from The Eclipse Foundation, 
+            <p>ThingMonk 2017 begins with a moring of talks from The Eclipse Foundation,
               with registration from 9AM and talks kicking off at 10AM.<br />
               We will break for lunch at 1PM, and return at 2:30 for our coding workshop.<br>
               Coding continues into the evening with coffee, beer and snacks provided
@@ -222,7 +210,7 @@ layout: thingmonk
           <div class="session-description">
               <p>Coding Workshop from Microsoft
               </p>
-          </div>        
+          </div>
           </li>
         <li class="c-sessions__single">
           <time>17:30 - 21:30</time>
@@ -236,9 +224,9 @@ layout: thingmonk
           <time>Day 2</time>
           <div class="session-description">
             <p>After registration from 9:30 the main conference will kick off at 10:30am.<br />
-              A morning of talks and then we’ll have an amazing lunch between 1 and 2:30pm. 
-              If you’ve been to a RedMonk event you know what to expect - if not, you’re in for a treat. 
-              We aim for sensational food and drink experiences at our conferences. 
+              A morning of talks and then we’ll have an amazing lunch between 1 and 2:30pm.
+              If you’ve been to a RedMonk event you know what to expect - if not, you’re in for a treat.
+              We aim for sensational food and drink experiences at our conferences.
               <br />Talks begin again at 2:30, coffee at 3:30. More great talks until 5:30
               Finishing up with beers and wine, and dinner at 7pm.</p>
           </div>
@@ -268,7 +256,7 @@ layout: thingmonk
           <time>12:30</time>
           <div class="session-description">
               <p><a href="http://thingmonk.com/thingmonk-talks.html#thinkovation">Title TBC</a> - <a href="http://thingmonk.com/thingmonk-talks.html#thinkovation">Gary Barnett</a></p>
-          </div>        
+          </div>
           </li>
         <li class="c-sessions__single">
           <time>13:00</time>
@@ -333,7 +321,7 @@ layout: thingmonk
           <time>13:00</time>
           <div class="session-description"><p>Lunch</p></div>
         </li>
-        
+
         <li class="c-sessions__single">
           <time>14:30</time>
           <div class="session-description"><p><a href="http://thingmonk.com/thingmonk-talks.html#benstopford">Building Streaming IoT platforms with Apache Kafka</a> - <a href="http://thingmonk.com/thingmonk-talks.html#benstopford">Ben Stopford</a></p></div>

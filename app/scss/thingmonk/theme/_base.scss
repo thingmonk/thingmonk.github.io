@@ -377,31 +377,44 @@
 }
 
 //Sponsers
-.l-sponsors {
-	h4 {
-		font-size: rem-calc(20);
-		color:darken($rm-red, 30%);
-		text-transform: uppercase;
-		@media #{$large-up} {
-			font-size: rem-calc(22);
-			margin-top:2rem;
-		}
-		&:after {
-			content:"";
-			background-color:darken($rm-red, 30%);
-			height:5px;
-			display: block;
-			max-width: 60%;
-			margin:12px 20% 0 20%;
-		}
+.l-sponsors-wrapper {
+	text-align: center;
+	padding:$margin;
+	@media #{$large-up} {
+		padding:($margin * 3) 0 $margin;
+		overflow:hidden;
 	}
+}
+.l-sponsors {
+	// display: flex;
+  // flex-direction: row;
 	.l-sponsors__sponsor {
 			text-align: center;
 			margin-bottom:2rem;
+			h4 {
+				font-size: rem-calc(16);
+				color:darken($rm-red, 30%);
+				text-transform: uppercase;
+				@media #{$large-up} {
+					// font-size: rem-calc(22);
+					margin:2rem auto 1rem;
+				}
+				&:before {
+					content:"";
+					background-color:rgba(white, 0.7);
+					height:2px;
+					display: block;
+					max-width: 40%;
+					margin:0 30% 10px 30%;
+				}
+			}
+			a {
+				color:white;
+			}
 	}
 	.l-sponsors__logo {
-		max-width: 150px;
-		margin:0 auto;
+		max-width: 80px;
+		margin:1rem auto 0;
 		display: inline-block;
 		&.l-sponsors__logo-big {
 			max-width: 300px;
