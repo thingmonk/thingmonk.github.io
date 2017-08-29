@@ -60,6 +60,13 @@ layout: thingmonk
         <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
         {% endfor %}
         </div>
+        
+        <div class="l-sponsors__sponsor">
+        <h4>Diversity Sponsor</h4>
+        {% for sponsor in site.data.diversity_sponsors %}
+        <div class="l-sponsors__logo"><a href="http://{{ sponsor.url }}" taget="_blank"><img src="/imgs/sponsors/{{ sponsor.image }}"></a></div> <br />
+        {% endfor %}
+        </div>
 
         <div class="l-sponsors__sponsor">
         <h4>Awesome Coffee</h4>
