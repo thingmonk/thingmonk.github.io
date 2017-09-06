@@ -36,8 +36,8 @@
 - name: Clemens Vasters
   photo: clemensv.jpg 
   bio: Lead Architect, Azure Messaging Services 
-  talktitle:
-  talkabstract: 
+  talktitle: Events, Data Points, and Messages
+  talkabstract: Events, Data Points, and Messages
   twitter: clemensv
 
 - name: Ben Stopford
@@ -109,3 +109,10 @@
   talktitle: Digital Twin &amp; Farming
   talkabstract: Digital Twin &amp; Farming
   twitter: RACarter
+
+- name: Joe Pindar
+  photo: joep.jpg
+  bio: Joseph is a founding member of the Trusted IoT Alliance, and a fifteen-year veteran of the information security industry. Joseph focus has always been on securing systems and catching bad guys, which led to his current work areas of - blockchain, IOT, UX, and investigating the way habits are formed.  Outside of the Trusted IoT Alliance, Joseph is the Director of Strategy in Gemalto’s CTO Office – working with development teams to create new services and meet customer needs with simplified security solutions.
+  talktitle: Blockchain secured IOT
+  talkabstract: Blockchain secured IOT
+  twitter: joepindar
