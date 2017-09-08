@@ -47,11 +47,18 @@
   talkabstract: When we think IoT, we tend to think of the leaf-node devices; sensors, microcontrollers etc. Whilst embedded devices provide the source of the IoT value chain, they are only the tip of the iceberg. The core value of many commercial IoT platforms sits below the waterline, in the data platforms that leverage the data these devices generate. <p>Multi-TB/s ingestion rates, even with small message payloads, make Apache Kafka one of the most common backbones for large IoT installations. In this talk will look at some of the key properties of Apache Kafka and its Stream Processing API, reflecting on why these features are important for processing IoT workloads. Finally we’ll touch on some real world examples in the transport and mobile domains.  
   twitter: benstopford 
 
+- name: Dr Monica Horten 
+  photo: monicah.jpg
+  bio: Visiting Fellow LSE. Trainer, consultant, Internet freedoms, EU, Brexit. Author. The Closing of the Net (Polity 2016).
+  talktitle: Data is the new currency
+  talkabstract: Data is the new currency
+  twitter: iptegrity 
+
 - name: Gary Barnett
   photo: garyb.jpg
   bio: Gary Barnett is CTO for Airsensa.org, a non-profit IoT startup. In his day job Gary is an industry analyst and leads the Enterprise Advisory business for Current Analysis.
-  talktitle:
-  talkabstract:
+  talktitle: The Number One Thing....
+  talkabstract: The Number One Thing....
   twitter: thinkovation
 
 - name: Sarah Cooper 
