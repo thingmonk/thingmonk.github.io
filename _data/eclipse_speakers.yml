@@ -4,7 +4,7 @@
   talktitle: Get ready, MQTT 5 is coming!
   talkabstract: Abstract will be posted shortly.
   twitter: icraggs
-#  video: 
+  video: https://www.youtube.com/watch?v=CJX-x24NVqs
 #  slides:
 
 - name: Tobiasz Dworak
@@ -18,7 +18,7 @@
 
     This talk will show the realization of an end to end monitoring scenario of process instrumentation equipment using Eclipse IoT stack, with a focus on the Eclipse Kura IoT gateway framework.<br/> 
   twitter: tobidi
-#  video: 
+  video: https://www.youtube.com/watch?v=4bmwQCIsfdc
 #  slides:
 
 
@@ -31,7 +31,7 @@
 
     This talk will provide a general introduction to the concept of software update in the IoT context, and will cover how the Eclipse hawkBit project allows to perform software update at scale, independently of a specific industry domain.
   twitter: hirschmicha 
-#  video: 
+  video: https://www.youtube.com/watch?v=7hK-kiQjKGA
 #  slides:
 
 - name: Sébastien Lambour
@@ -48,7 +48,7 @@
 
     But IoT is not only about object interaction, monitoring or also command and control. Value is created with data analytics, this is the first aim of InTheMoodForLife. We used Warpscript, a time series analytics language for decompose the sleep architecture, detect sleep anomalies day after day in order to react, and adapt the treatment faster. This is just the beginning, because smart sensor and data analytics open up a very brand range of possibilities.
   twitter: finistseb 
-#  video: 
+  video: https://www.youtube.com/watch?v=Sc5inZ4Oy1Y
 #  slides:
 
 - name: Ian Skerrett
@@ -72,5 +72,5 @@
     Sierra Wireless is connecting millions of objects since the nineties when it was still called M2M, and is now joining the IoT bandwagon.
     Let’s explore what is needed to deploy, develop and operate an IoT solution at scale.
   twitter: vrmvrm
-#  video: 
+  video: https://www.youtube.com/watch?v=Qtr0acWsPvU
 #  slides:
